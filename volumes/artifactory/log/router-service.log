@@ -164,3 +164,31 @@ shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.
 2021-05-05T12:53:39.769Z [jfrou] [ERROR] [455402a94a816d84] [routing_handler.go:239        ] [main                ] - Failed reading current external routes from file: /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
 2021-05-05T12:53:39.769Z [jfrou] [ERROR] [455402a94a816d84] [external_topology.go:96       ] [main                ] - Failed updating external topology routing rules: failed performing atomic write to file: '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'; failed renaming file '/tmp/router157817252' to '/opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml'. error: open /opt/jfrog/artifactory/var/data/router/traefik/routes/external/external-routes.toml: permission denied
 2021-05-05T12:53:40.046Z [jfrou] [ERROR] [2b8cdcb9b35263ee] [local_topology.go:261         ] [main                ] - Failed creating unhealthy node routing rule, incoming requests will be routed to local services
+2022-03-07T11:01:08.715Z [jfrou] [INFO ] [352083d96ef1881d] [bootstrap.go:76               ] [main                ] - Router (jfrou) service initialization started. Version: 7.32.1-1 Revision: 3a1cf040340ae124ef7022bb849760cf4593e48b PID: 4247 Home: /opt/jfrog/artifactory
+2022-03-07T11:01:08.728Z [jfrou] [INFO ] [352083d96ef1881d] [bootstrap.go:79               ] [main                ] - JFrog Router IP: 172.18.0.4
+2022-03-07T11:01:08.736Z [jfrou] [INFO ] [352083d96ef1881d] [bootstrap.go:192              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2022-03-07T11:01:08.755Z [jfrou] [INFO ] [352083d96ef1881d] [bootstrap.go:84               ] [main                ] - JFrog Router Service ID: jfrou@01e6gkz5mj75e8whsva5r4rjc6
+2022-03-07T11:01:08.755Z [jfrou] [INFO ] [352083d96ef1881d] [bootstrap.go:85               ] [main                ] - JFrog Router Node ID: cf274545263b
+2022-03-07T11:01:08.770Z [jfrou] [INFO ] [352083d96ef1881d] [http_client_holder.go:160     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2022-03-07T11:01:08.770Z [jfrou] [INFO ] [352083d96ef1881d] [http_client_holder.go:180     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2022-03-07T11:01:10.701Z [jfrou] [INFO ] [352083d96ef1881d] [config_holder.go:107          ] [main                ] - Configuration update detected
+2022-03-07T11:01:38.570Z [jfrou] [INFO ] [352083d96ef1881d] [join_executor.go:116          ] [main                ] - Cluster join: Trying to rejoin the cluster
+2022-03-07T11:01:39.875Z [jfrou] [INFO ] [352083d96ef1881d] [join_executor.go:205          ] [main                ] - Cluster join: Successfully joined the cluster
+2022-03-07T11:01:39.877Z [jfrou] [INFO ] [352083d96ef1881d] [http_client_holder.go:160     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2022-03-07T11:01:39.878Z [jfrou] [INFO ] [352083d96ef1881d] [http_client_holder.go:180     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2022-03-07T11:01:39.888Z [jfrou] [INFO ] [352083d96ef1881d] [registry_handler.go:74        ] [main                ] - Persisted local services: []
+2022-03-07T11:01:39.905Z [jfrou] [INFO ] [352083d96ef1881d] [local_topology.go:112         ] [main                ] - Required service types: [jfrt jfac jfmd jffe jfob jfint]
+2022-03-07T11:01:39.905Z [jfrou] [INFO ] [352083d96ef1881d] [main.go:47                    ] [main                ] - Router (jfrou) service initialization completed in 31.213 seconds. Listening on port: 8082
+2022-03-07T11:01:39.907Z [jfrou] [WARN ] [3bc089687f1eb705] [local_topology_helper.go:53   ] [main                ] - Missing required services: [jfrt jfac jfmd jffe jfob jfint]
+2022-03-07T11:01:39.907Z [jfrou] [WARN ] [3bc089687f1eb705] [local_topology.go:270         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-03-07T11:01:45.020Z [jfrou] [WARN ] [261ba4da7f19fd1b] [local_topology_helper.go:53   ] [main                ] - Missing required services: [jffe]
+2022-03-07T11:01:45.020Z [jfrou] [WARN ] [261ba4da7f19fd1b] [local_topology.go:270         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-03-07T11:01:49.939Z [jfrou] [WARN ] [3667fc3466aae3a1] [local_topology.go:270         ] [main                ] - Readiness test failed with the following error: "required node services are missing or unhealthy"
+2022-03-07T11:01:54.945Z [jfrou] [INFO ] [2e5a95941f44c6c ] [local_topology.go:284         ] [main                ] - 
+###############################################################
+###   All services started successfully in 46.253 seconds   ###
+###############################################################

@@ -5864,3 +5864,1069 @@ Current total size:      52.18 MB
 2021-05-05T12:53:39.229Z [jfrt ] [ERROR] [4d36f931a546a76c] [okenAuthenticationProvider:139] [http-nio-8081-exec-7] - Failed to verify token with id '41f71fe1-5f5c-4cfe-b3ef-badcbccdf5ff': java.lang.RuntimeException: Failed to read root certificate from file: /opt/jfrog/artifactory/var/etc/artifactory/security/access/keys/root.crt
 2021-05-05T12:53:39.232Z [jfrt ] [ERROR] [2ae76053c418a33 ] [okenAuthenticationProvider:139] [http-nio-8081-exec-3] - Failed to verify token with id '41f71fe1-5f5c-4cfe-b3ef-badcbccdf5ff': java.lang.RuntimeException: Failed to read root certificate from file: /opt/jfrog/artifactory/var/etc/artifactory/security/access/keys/root.crt
 2021-05-05T12:53:40.045Z [jfrt ] [ERROR] [2b8cdcb9b35263ee] [o.a.r.r.s.PingResource:89     ] [27.0.0.1-8091-exec-5] - Ping failed due to file system access to data or log dir failed
+2022-03-07T11:01:14.745Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2022-03-07T11:01:14.786Z [jfrt ] [INFO ] [b28aee027a6941e0] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2022-03-07T11:01:15.318Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:146       ] [file-watcher-poller ] - Starting watch of folder configurations
+2022-03-07T11:01:15.432Z [jfrt ] [WARN ] [b28aee027a6941e0] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2022-03-07T11:01:17.556Z [jfrt ] [INFO ] [b28aee027a6941e0] [.BasicConfigurationManager:186] [ocalhost-startStop-2] - Artifactory (jfrt) service initialization started. Version: 7.33.9 Revision: 73309900 PID: 5098 Home: /opt/jfrog/artifactory
+2022-03-07T11:01:18.097Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering PRE_INIT conversion, from 7.18.5 to 7.33.9
+2022-03-07T11:01:18.097Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished PRE_INIT conversion, current version is: 7.33.9
+2022-03-07T11:01:18.097Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.i.DbInitializationManager:48] [ocalhost-startStop-2] - Initializing DB Schema initialization manager
+2022-03-07T11:01:18.098Z [jfrt ] [INFO ] [b28aee027a6941e0] [.i.DbInitializationManager:176] [ocalhost-startStop-2] - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579) Pool: derby
+2022-03-07T11:01:18.572Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.i.DbInitializationManager:52] [ocalhost-startStop-2] - DB Schema initialization manager initialized
+2022-03-07T11:01:18.631Z [jfrt ] [INFO ] [b28aee027a6941e0] [SchemaInitializationManager:48] [ocalhost-startStop-2] - Initializing Post-DB initialization manager
+2022-03-07T11:01:18.716Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.DbSchemaVersionLogDao:56] [ocalhost-startStop-2] - Creating table 'schema_change_log' for converters history tracking
+2022-03-07T11:01:18.802Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.DbSchemaVersionLogDao:61] [ocalhost-startStop-2] - Table 'schema_change_log' created
+2022-03-07T11:01:18.847Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v10 refers to system version 6.0.0-m023 and should be skipped for source artifactory version
+2022-03-07T11:01:18.957Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v11 refers to system version 6.1.0-m002 and should be skipped for source artifactory version
+2022-03-07T11:01:18.963Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v12 refers to system version 6.1.0-m002 and should be skipped for source artifactory version
+2022-03-07T11:01:18.968Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v13 refers to system version 6.1.0-m002 and should be skipped for source artifactory version
+2022-03-07T11:01:18.977Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v14 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:18.993Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v15 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.001Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v16 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.003Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v17 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.018Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v18 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.021Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v19 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.023Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v20 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.027Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v21 refers to system version 6.2.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.050Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v22 refers to system version 6.4.0-m007 and should be skipped for source artifactory version
+2022-03-07T11:01:19.057Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v23 refers to system version 6.4.0-m007 and should be skipped for source artifactory version
+2022-03-07T11:01:19.060Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v24 refers to system version 6.4.0-m007 and should be skipped for source artifactory version
+2022-03-07T11:01:19.062Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v25 refers to system version 6.4.0-m007 and should be skipped for source artifactory version
+2022-03-07T11:01:19.064Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v26 refers to system version 6.5.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.067Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v27 refers to system version 6.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.081Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v28 refers to system version 6.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.097Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v29 refers to system version 6.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.103Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v30 refers to system version 6.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.105Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v31 refers to system version 6.8.2-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.106Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v32 refers to system version 6.9.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.118Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v33 refers to system version 6.9.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.120Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v34 refers to system version 6.11.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.121Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v35 refers to system version 6.11.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.128Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v36 refers to system version 6.11.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.130Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v37 refers to system version 6.11.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.131Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v38 refers to system version 6.12.0-m079 and should be skipped for source artifactory version
+2022-03-07T11:01:19.132Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v39 refers to system version 6.12.0-m079 and should be skipped for source artifactory version
+2022-03-07T11:01:19.134Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v40 refers to system version 6.12.0-m079 and should be skipped for source artifactory version
+2022-03-07T11:01:19.143Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v41 refers to system version 6.12.0-m079 and should be skipped for source artifactory version
+2022-03-07T11:01:19.144Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v42 refers to system version 6.17.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.147Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v43 refers to system version 6.17.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.156Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v44 refers to system version 7.3.2-m017 and should be skipped for source artifactory version
+2022-03-07T11:01:19.158Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v45 refers to system version 7.4.0-m081 and should be skipped for source artifactory version
+2022-03-07T11:01:19.161Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v46 refers to system version 7.4.0-m081 and should be skipped for source artifactory version
+2022-03-07T11:01:19.165Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v47 refers to system version 7.4.0-m081 and should be skipped for source artifactory version
+2022-03-07T11:01:19.166Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v48 refers to system version 7.4.0-m081 and should be skipped for source artifactory version
+2022-03-07T11:01:19.168Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v49 refers to system version 7.4.0-m081 and should be skipped for source artifactory version
+2022-03-07T11:01:19.171Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v50 refers to system version 7.4.0-m081 and should be skipped for source artifactory version
+2022-03-07T11:01:19.174Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v51 refers to system version 7.5.0-m145 and should be skipped for source artifactory version
+2022-03-07T11:01:19.179Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v52 refers to system version 7.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.180Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v53 refers to system version 7.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.183Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v54 refers to system version 7.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.184Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v55 refers to system version 7.6.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.185Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v56 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.186Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v57 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.187Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v58 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.189Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v59 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.191Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v60 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.195Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v61 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.198Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v62 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.204Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v63 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.205Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v64 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.206Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v65 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.208Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v66 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.216Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v67 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.225Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v68 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.231Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v69 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.232Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v70 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.239Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v71 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.240Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v72 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.246Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v73 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.248Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v74 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.255Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v75 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.257Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v76 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.258Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v77 refers to system version 7.7.0 and should be skipped for source artifactory version
+2022-03-07T11:01:19.260Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v82 refers to system version 7.11.0-m033 and should be skipped for source artifactory version
+2022-03-07T11:01:19.262Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v83 refers to system version 7.13.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.263Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v84 refers to system version 7.13.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.264Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v85 refers to system version 7.13.0-m001 and should be skipped for source artifactory version
+2022-03-07T11:01:19.272Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v86 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.274Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v87 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.275Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v88 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.276Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v89 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.277Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v90 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.279Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v91 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.280Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v92 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.281Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v93 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.284Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.u.DbConverterUtil:45    ] [ocalhost-startStop-2] - Converter v94 refers to system version 7.17.0-m040 and should be skipped for source artifactory version
+2022-03-07T11:01:19.289Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v96 with description: "Drop index `node_events_errors_idx` for `node_events_errors`."
+2022-03-07T11:01:19.289Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v96` is done with status `SKIPPED`.
+2022-03-07T11:01:19.316Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v97 with description: "Set all events in `node_events_errors` missing category to `REPLICATION`"
+2022-03-07T11:01:19.316Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v97` is done with status `SKIPPED`.
+2022-03-07T11:01:19.324Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v98 with description: "Change column `event_category` on `node_events_errors` as NOT NULL."
+2022-03-07T11:01:19.352Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v98` is done with status `SKIPPED`.
+2022-03-07T11:01:19.357Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v99 with description: "Create index `node_events_errors_idx` for `node_events_errors` on `operation_key,event_category,event_id,event_time` field."
+2022-03-07T11:01:19.357Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v99` is done with status `SKIPPED`.
+2022-03-07T11:01:19.359Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v100 with description: "Add column `type` to table `build_modules`."
+2022-03-07T11:01:19.365Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/add_column_with_default.tpl
+2022-03-07T11:01:19.365Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:380] [ocalhost-startStop-2] - Searching for concrete DB (derby) conversion template at /templates/derby/add_column_with_default.tpl
+2022-03-07T11:01:19.453Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v100` is done with status `COMPLETED`.
+2022-03-07T11:01:19.456Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v101 with description: "Change size of `username` on `watches` to 255."
+2022-03-07T11:01:19.492Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/alter_column_size.tpl
+2022-03-07T11:01:19.499Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:380] [ocalhost-startStop-2] - Searching for concrete DB (derby) conversion template at /templates/derby/alter_column_size.tpl
+2022-03-07T11:01:19.553Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v101` is done with status `COMPLETED`.
+2022-03-07T11:01:19.556Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v102 with description: "Add column `type` to table `build_modules`."
+2022-03-07T11:01:19.566Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v102` is done with status `SKIPPED`.
+2022-03-07T11:01:19.578Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v103 with description: "v103_binaries_tasks"
+2022-03-07T11:01:19.664Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v103` is done with status `COMPLETED`.
+2022-03-07T11:01:19.667Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v104 with description: "Create index `binaries_tasks_time_idx` for `binaries_tasks` on `time` field."
+2022-03-07T11:01:19.699Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/create_index.tpl
+2022-03-07T11:01:19.737Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v104` is done with status `COMPLETED`.
+2022-03-07T11:01:19.743Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v105 with description: "Create index `binaries_tasks_start_time_idx` for `binaries_tasks` on `start_time` field."
+2022-03-07T11:01:19.782Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/create_index.tpl
+2022-03-07T11:01:19.803Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v105` is done with status `COMPLETED`.
+2022-03-07T11:01:19.806Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v106 with description: "Create index `binaries_tasks_server_id_idx` for `binaries_tasks` on `server_id` field."
+2022-03-07T11:01:19.820Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/create_index.tpl
+2022-03-07T11:01:19.836Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v106` is done with status `COMPLETED`.
+2022-03-07T11:01:19.838Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v107 with description: "Create index `binaries_tasks_count_idx` for `binaries_tasks` on `count` field."
+2022-03-07T11:01:19.850Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/create_index.tpl
+2022-03-07T11:01:19.856Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v107` is done with status `COMPLETED`.
+2022-03-07T11:01:19.858Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v108 with description: "Change size of `prop_value` on `node_props` to 4000."
+2022-03-07T11:01:19.862Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v108` is done with status `SKIPPED`.
+2022-03-07T11:01:19.865Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v109 with description: "v109_add_distributed_locks_lock_key_idx"
+2022-03-07T11:01:19.886Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v109` is done with status `COMPLETED`.
+2022-03-07T11:01:19.890Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v110 with description: "Add column `date_distributed` to table `artifact_bundles`."
+2022-03-07T11:01:19.896Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/add_column.tpl
+2022-03-07T11:01:19.899Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:380] [ocalhost-startStop-2] - Searching for concrete DB (derby) conversion template at /templates/derby/add_column.tpl
+2022-03-07T11:01:19.906Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v110` is done with status `COMPLETED`.
+2022-03-07T11:01:19.909Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v117 with description: "Change default value of `type` on `artifact_bundles` to 'TARGET'."
+2022-03-07T11:01:19.916Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v117` is done with status `SKIPPED`.
+2022-03-07T11:01:19.921Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v118 with description: "Add column `status` to table `node_event_cursor`."
+2022-03-07T11:01:19.922Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/add_column_with_default.tpl
+2022-03-07T11:01:19.922Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:380] [ocalhost-startStop-2] - Searching for concrete DB (derby) conversion template at /templates/derby/add_column_with_default.tpl
+2022-03-07T11:01:19.933Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v118` is done with status `COMPLETED`.
+2022-03-07T11:01:19.936Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:36  ] [ocalhost-startStop-2] - Starting converter v119 with description: "Add column `last_updated` to table `node_event_cursor`."
+2022-03-07T11:01:19.941Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:374] [ocalhost-startStop-2] - Searching for default DB conversion template at /templates/default/add_column_with_default.tpl
+2022-03-07T11:01:19.942Z [jfrt ] [INFO ] [b28aee027a6941e0] [j.c.u.PreDefinedConverters:380] [ocalhost-startStop-2] - Searching for concrete DB (derby) conversion template at /templates/derby/add_column_with_default.tpl
+2022-03-07T11:01:19.948Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.AbstractDbConverter:51  ] [ocalhost-startStop-2] - Converter `v119` is done with status `COMPLETED`.
+2022-03-07T11:01:19.965Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering MARKERS conversion, from 7.18.5 to 7.33.9
+2022-03-07T11:01:19.969Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished MARKERS conversion, current version is: 7.33.9
+2022-03-07T11:01:19.969Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering HOME_FILES conversion, from 7.18.5 to 7.33.9
+2022-03-07T11:01:20.155Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender REQUEST_OUT already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.155Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger org.artifactory.traffic.OutboundRequestLogger already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.155Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender USAGE already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.155Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger org.artifactory.usage.logger.UsageConsumptionLogger already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.155Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender USAGE-METRICS-APPENDER already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.156Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger USAGE_METRICS already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.173Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender REQUEST_OUT already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.175Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger org.artifactory.traffic.OutboundRequestLogger already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.177Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender USAGE already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.178Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger org.artifactory.usage.logger.UsageConsumptionLogger already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.178Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender USAGE-METRICS-APPENDER already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.178Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger USAGE_METRICS already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.187Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender REQUEST_OUT already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.187Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger org.artifactory.traffic.OutboundRequestLogger already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.188Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender USAGE already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.188Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger org.artifactory.usage.logger.UsageConsumptionLogger already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.188Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - appender USAGE-METRICS-APPENDER already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.194Z [jfrt ] [INFO ] [b28aee027a6941e0] [.l.c.LogbackConverterUtils:102] [ocalhost-startStop-2] - logger USAGE_METRICS already exists in logback.xml, skipping conversion
+2022-03-07T11:01:20.196Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.a.l.v.LoggingVersion:144    ] [ocalhost-startStop-2] - Ending database conversion from 7.18.5
+2022-03-07T11:01:20.200Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished HOME_FILES conversion, current version is: 7.33.9
+2022-03-07T11:01:20.223Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:212] [ocalhost-startStop-2] - Triggering HOME_SYNC_FILES conversion, from 7.18.5 to 7.33.9
+2022-03-07T11:01:20.234Z [jfrt ] [INFO ] [b28aee027a6941e0] [d.c.m.ConverterManagerImpl:215] [ocalhost-startStop-2] - Finished HOME_SYNC_FILES conversion, current version is: 7.33.9
+2022-03-07T11:01:20.234Z [jfrt ] [INFO ] [b28aee027a6941e0] [.c.ConfigurationManagerImpl:97] [ocalhost-startStop-2] - Starting file sync
+2022-03-07T11:01:20.250Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.ConfigWrapperImpl:342   ] [ocalhost-startStop-2] - [Node ID: cf274545263b]  detected local  modify for config 'artifactory/config/security/artifactory.key'
+2022-03-07T11:01:20.324Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.ConfigWrapperImpl:342   ] [ocalhost-startStop-2] - [Node ID: cf274545263b]  detected local  modify for config 'artifactory/config/security/url.signing.key'
+2022-03-07T11:01:20.326Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.ConfigWrapperImpl:342   ] [ocalhost-startStop-2] - [Node ID: cf274545263b]  detected local  modify for config 'artifactory/config/security/access/access.admin.token'
+2022-03-07T11:01:20.356Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.ConfigWrapperImpl:342   ] [ocalhost-startStop-2] - [Node ID: cf274545263b]  detected local  modify for config 'artifactory/config/mimetypes.xml'
+2022-03-07T11:01:20.382Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.ConfigWrapperImpl:342   ] [ocalhost-startStop-2] - [Node ID: cf274545263b]  detected local  modify for config 'artifactory/config/artifactory.system.properties'
+2022-03-07T11:01:20.384Z [jfrt ] [INFO ] [b28aee027a6941e0] [o.j.c.ConfigWrapperImpl:342   ] [ocalhost-startStop-2] - [Node ID: cf274545263b]  detected local  modify for config 'artifactory/config/binarystore.xml'
+2022-03-07T11:01:20.480Z [jfrt ] [INFO ] [b28aee027a6941e0] [SchemaInitializationManager:51] [ocalhost-startStop-2] - Post-DB initialization manager initialized
+2022-03-07T11:01:20.975Z [jfrt ] [INFO ] [58663685340e394a] [ctoryContextConfigListener:331] [art-init            ] - 
+                _   _  __           _                      ____   _____ _____
+     /\        | | (_)/ _|         | |                    / __ \ / ____/ ____|
+    /  \   _ __| |_ _| |_ __ _  ___| |_ ___  _ __ _   _  | |  | | (___| (___
+   / /\ \ | '__| __| |  _/ _` |/ __| __/ _ \| '__| | | | | |  | |\___ \\___ \
+  / ____ \| |  | |_| | || (_| | (__| || (_) | |  | |_| | | |__| |____) |___) |
+ /_/    \_\_|   \__|_|_| \__,_|\___|\__\___/|_|   \__, |  \____/|_____/_____/
+ Version:  7.33.9                                  __/ |
+ Revision: 73309900                               |___/
+ Artifactory Home: '/opt/jfrog/artifactory'
+ Node ID: 'cf274545263b'
+
+2022-03-07T11:01:20.978Z [jfrt ] [WARN ] [58663685340e394a] [o.a.f.l.ArtifactoryLockFile:65] [art-init            ] - Found existing lock file. Artifactory was not shutdown properly. [/opt/jfrog/artifactory/var/data/artifactory/.lock]
+2022-03-07T11:01:21.136Z [jfrt ] [INFO ] [58663685340e394a] [ifactoryApplicationContext:564] [art-init            ] - Artifactory application context set to NOT READY by refresh
+2022-03-07T11:01:25.593Z [jfrt ] [WARN ] [58663685340e394a] [c.z.h.u.DriverDataSource:70   ] [art-init            ] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2022-03-07T11:01:28.313Z [jfrt ] [INFO ] [58663685340e394a] [ritiesStorageServiceFactory:25] [art-init            ] - Initializing DB-based Priorities Storage Service
+2022-03-07T11:01:33.915Z [jfrt ] [INFO ] [58663685340e394a] [actorySchedulerFactoryBean:729] [art-init            ] - Starting Quartz Scheduler now
+2022-03-07T11:01:33.993Z [jfrt ] [INFO ] [58663685340e394a] [ifactoryApplicationContext:284] [art-init            ] - Artifactory context starting up 52 Spring Beans...
+2022-03-07T11:01:34.361Z [jfrt ] [INFO ] [58663685340e394a] [.a.d.r.CentralConfigReader:110] [art-init            ] - The current Artifactory config schema namespace is 'http://artifactory.jfrog.org/xsd/3.1.26' The provided config does not seem to be compliant with it.
+2022-03-07T11:01:34.538Z [jfrt ] [INFO ] [58663685340e394a] [o.a.d.r.CentralConfigReader:89] [art-init            ] - Converting artifactory.config.xml version from 'v3111' to 'v3126'
+2022-03-07T11:01:34.558Z [jfrt ] [INFO ] [58663685340e394a] [.a.v.c.v.AddMetadataTimeout:21] [art-init            ] - Starting conversion of remote repos default metadata timeout
+2022-03-07T11:01:34.558Z [jfrt ] [INFO ] [58663685340e394a] [.a.v.c.v.AddMetadataTimeout:37] [art-init            ] - Finished converting of remote repos default metadata timeout
+2022-03-07T11:01:34.558Z [jfrt ] [INFO ] [58663685340e394a] [butionReposToLocalConverter:23] [art-init            ] - Started DistributionReposToLocalConverter
+2022-03-07T11:01:34.558Z [jfrt ] [INFO ] [58663685340e394a] [butionReposToLocalConverter:74] [art-init            ] - Finished DistributionReposToLocalConverter
+2022-03-07T11:01:34.559Z [jfrt ] [INFO ] [58663685340e394a] [ryEnableMetadataV1Converter:24] [art-init            ] - Starting conversion of Composer local repos to keep metadata v1 indexing
+2022-03-07T11:01:34.559Z [jfrt ] [INFO ] [58663685340e394a] [ryEnableMetadataV1Converter:44] [art-init            ] - Finished converting Composer local repos to keep metadata v1 indexing
+2022-03-07T11:01:34.559Z [jfrt ] [INFO ] [58663685340e394a] [ositoryXrayDataTtlConverter:19] [art-init            ] - Starting 'Repository Xray Data TTL' conversion
+2022-03-07T11:01:34.560Z [jfrt ] [INFO ] [58663685340e394a] [ositoryXrayDataTtlConverter:25] [art-init            ] - Finished 'Repository Xray Data TTL' conversion successfully
+2022-03-07T11:01:34.564Z [jfrt ] [INFO ] [58663685340e394a] [tLifecycleSettingsConverter:18] [art-init            ] - Started RemoveArtifactLifecycleSettingsConverter
+2022-03-07T11:01:34.564Z [jfrt ] [INFO ] [58663685340e394a] [tLifecycleSettingsConverter:25] [art-init            ] - Finished RemoveArtifactLifecycleSettingsConverter
+2022-03-07T11:01:34.564Z [jfrt ] [INFO ] [58663685340e394a] [licationPathPrefixConverter:24] [art-init            ] - Starting conversion of exist replication path prefix field to include/exclude path prefix patterns.
+2022-03-07T11:01:34.565Z [jfrt ] [INFO ] [58663685340e394a] [licationPathPrefixConverter:50] [art-init            ] - Finished converting of exist replication path prefix field to include/exclude path prefix patterns.
+2022-03-07T11:01:34.565Z [jfrt ] [INFO ] [58663685340e394a] [aformDefaultLayoutConverter:23] [art-init            ] - Starting 'Add Terraform default repositories layouts' conversion
+2022-03-07T11:01:34.566Z [jfrt ] [INFO ] [58663685340e394a] [aformDefaultLayoutConverter:31] [art-init            ] - Finished 'Add Terraform default repositories layouts' conversion successfully
+2022-03-07T11:01:34.566Z [jfrt ] [INFO ] [58663685340e394a] [icAddDefaultLayoutConverter:38] [art-init            ] - Starting 'Add swift-default repositories layouts' conversion
+2022-03-07T11:01:34.567Z [jfrt ] [INFO ] [58663685340e394a] [icAddDefaultLayoutConverter:46] [art-init            ] - Finished 'Add swift-default repositories layouts' conversion successfully
+2022-03-07T11:01:34.570Z [jfrt ] [INFO ] [58663685340e394a] [getSymbolServerUrlConverter:31] [art-init            ] - Starting NuGet 'SymbolServerUrlConverter' conversion
+2022-03-07T11:01:34.570Z [jfrt ] [INFO ] [58663685340e394a] [getSymbolServerUrlConverter:42] [art-init            ] - Finished NuGet 'SymbolServerUrlConverter' conversion
+2022-03-07T11:01:35.164Z [jfrt ] [INFO ] [58663685340e394a] [.a.d.r.CentralConfigReader:110] [art-init            ] - The current Artifactory config schema namespace is 'http://artifactory.jfrog.org/xsd/3.1.26' The provided config does not seem to be compliant with it.
+2022-03-07T11:01:35.165Z [jfrt ] [INFO ] [58663685340e394a] [o.a.d.r.CentralConfigReader:89] [art-init            ] - Converting artifactory.config.xml version from 'v3111' to 'v3126'
+2022-03-07T11:01:35.167Z [jfrt ] [INFO ] [58663685340e394a] [.a.v.c.v.AddMetadataTimeout:21] [art-init            ] - Starting conversion of remote repos default metadata timeout
+2022-03-07T11:01:35.167Z [jfrt ] [INFO ] [58663685340e394a] [.a.v.c.v.AddMetadataTimeout:37] [art-init            ] - Finished converting of remote repos default metadata timeout
+2022-03-07T11:01:35.167Z [jfrt ] [INFO ] [58663685340e394a] [butionReposToLocalConverter:23] [art-init            ] - Started DistributionReposToLocalConverter
+2022-03-07T11:01:35.167Z [jfrt ] [INFO ] [58663685340e394a] [butionReposToLocalConverter:74] [art-init            ] - Finished DistributionReposToLocalConverter
+2022-03-07T11:01:35.167Z [jfrt ] [INFO ] [58663685340e394a] [ryEnableMetadataV1Converter:24] [art-init            ] - Starting conversion of Composer local repos to keep metadata v1 indexing
+2022-03-07T11:01:35.167Z [jfrt ] [INFO ] [58663685340e394a] [ryEnableMetadataV1Converter:44] [art-init            ] - Finished converting Composer local repos to keep metadata v1 indexing
+2022-03-07T11:01:35.168Z [jfrt ] [INFO ] [58663685340e394a] [ositoryXrayDataTtlConverter:19] [art-init            ] - Starting 'Repository Xray Data TTL' conversion
+2022-03-07T11:01:35.168Z [jfrt ] [INFO ] [58663685340e394a] [ositoryXrayDataTtlConverter:25] [art-init            ] - Finished 'Repository Xray Data TTL' conversion successfully
+2022-03-07T11:01:35.168Z [jfrt ] [INFO ] [58663685340e394a] [tLifecycleSettingsConverter:18] [art-init            ] - Started RemoveArtifactLifecycleSettingsConverter
+2022-03-07T11:01:35.168Z [jfrt ] [INFO ] [58663685340e394a] [tLifecycleSettingsConverter:25] [art-init            ] - Finished RemoveArtifactLifecycleSettingsConverter
+2022-03-07T11:01:35.168Z [jfrt ] [INFO ] [58663685340e394a] [licationPathPrefixConverter:24] [art-init            ] - Starting conversion of exist replication path prefix field to include/exclude path prefix patterns.
+2022-03-07T11:01:35.168Z [jfrt ] [INFO ] [58663685340e394a] [licationPathPrefixConverter:50] [art-init            ] - Finished converting of exist replication path prefix field to include/exclude path prefix patterns.
+2022-03-07T11:01:35.168Z [jfrt ] [INFO ] [58663685340e394a] [aformDefaultLayoutConverter:23] [art-init            ] - Starting 'Add Terraform default repositories layouts' conversion
+2022-03-07T11:01:35.169Z [jfrt ] [INFO ] [58663685340e394a] [aformDefaultLayoutConverter:31] [art-init            ] - Finished 'Add Terraform default repositories layouts' conversion successfully
+2022-03-07T11:01:35.169Z [jfrt ] [INFO ] [58663685340e394a] [icAddDefaultLayoutConverter:38] [art-init            ] - Starting 'Add swift-default repositories layouts' conversion
+2022-03-07T11:01:35.169Z [jfrt ] [INFO ] [58663685340e394a] [icAddDefaultLayoutConverter:46] [art-init            ] - Finished 'Add swift-default repositories layouts' conversion successfully
+2022-03-07T11:01:35.169Z [jfrt ] [INFO ] [58663685340e394a] [getSymbolServerUrlConverter:31] [art-init            ] - Starting NuGet 'SymbolServerUrlConverter' conversion
+2022-03-07T11:01:35.169Z [jfrt ] [INFO ] [58663685340e394a] [getSymbolServerUrlConverter:42] [art-init            ] - Finished NuGet 'SymbolServerUrlConverter' conversion
+2022-03-07T11:01:36.212Z [jfrt ] [INFO ] [58663685340e394a] [c.CentralConfigServiceImpl:552] [art-init            ] - New configuration forced saved.
+2022-03-07T11:01:36.501Z [jfrt ] [INFO ] [58663685340e394a] [c.CentralConfigServiceImpl:395] [art-init            ] - Automatically converting the config file, original will be saved in /opt/jfrog/artifactory/var/etc/artifactory
+2022-03-07T11:01:36.601Z [jfrt ] [INFO ] [58663685340e394a] [o.a.s.a.AccessServiceImpl:542 ] [art-init            ] - Initialized new service id: jfrt@01e6gkzhtba2gz14rj5jrj009s
+2022-03-07T11:01:36.678Z [jfrt ] [INFO ] [58663685340e394a] [oryAccessClientConfigStore:529] [art-init            ] - Using Access Server URL: http://localhost:8046/access source: System Config
+2022-03-07T11:01:38.869Z [jfrt ] [INFO ] [58663685340e394a] [o.j.c.ExecutionUtils:165      ] [pool-5-thread-1     ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error while trying to connect to local router at address 'http://localhost:8046/access': Connect to localhost:8046 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
+2022-03-07T11:01:42.082Z [jfrt ] [INFO ] [58663685340e394a] [.a.c.AccessClientBootstrap:152] [art-init            ] - Cluster join: Executing join on 'http://localhost:8046/access'
+2022-03-07T11:01:42.220Z [jfrt ] [INFO ] [58663685340e394a] [.a.c.AccessClientBootstrap:162] [art-init            ] - Cluster join: Successfully joined the cluster
+2022-03-07T11:01:43.120Z [jfrt ] [INFO ] [58663685340e394a] [o.a.s.a.AccessServiceImpl:473 ] [art-init            ] - Initialized access service successfully with client id 991727890, closing old client id [null]
+2022-03-07T11:01:43.121Z [jfrt ] [INFO ] [58663685340e394a] [o.a.s.a.AccessServiceImpl:1379] [art-init            ] - Updating access configuration with password expiration data
+2022-03-07T11:01:43.676Z [jfrt ] [INFO ] [58663685340e394a] [o.a.i.InfoWriter:53           ] [art-init            ] - 
+
+ SYSTEM INFORMATION DUMP
+ =======================
+
+ System Info
+ ========================
+   java.library.path                                                     | /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+   java.class.path                                                       | /opt/jfrog/artifactory/app/artifactory/tomcat/bin/bootstrap.jar
+                                                                         | /opt/jfrog/artifactory/app/artifactory/tomcat/bin/tomcat-juli.jar
+
+ Java System Info
+ ========================
+   java.class.version                                                    | 55.0
+   java.home                                                             | /opt/jfrog/artifactory/app/third-party/java
+   java.io.tmpdir                                                        | /opt/jfrog/artifactory/var/work/artifactory/tomcat/temp
+   java.runtime.name                                                     | OpenJDK Runtime Environment
+   java.runtime.version                                                  | 11.0.13+8
+   java.specification.name                                               | Java Platform API Specification
+   java.specification.vendor                                             | Oracle Corporation
+   java.specification.version                                            | 11
+   java.vendor                                                           | Eclipse Adoptium
+   java.vendor.url                                                       | https://adoptium.net/
+   java.vendor.url.bug                                                   | https://github.com/adoptium/adoptium-support/issues
+   java.version                                                          | 11.0.13
+   java.vm.info                                                          | mixed mode
+   java.vm.name                                                          | OpenJDK 64-Bit Server VM
+   java.vm.specification.name                                            | Java Virtual Machine Specification
+   java.vm.specification.vendor                                          | Oracle Corporation
+   java.vm.specification.version                                         | 11
+   java.vm.vendor                                                        | Eclipse Adoptium
+   java.vm.version                                                       | 11.0.13+8
+   sun.arch.data.model                                                   | 64
+   sun.boot.library.path                                                 | /opt/jfrog/artifactory/app/third-party/java/lib
+   sun.cpu.endian                                                        | little
+   sun.cpu.isalist                                                       | 
+   sun.io.unicode.encoding                                               | UnicodeLittle
+   sun.java.launcher                                                     | SUN_STANDARD
+   sun.jnu.encoding                                                      | ANSI_X3.4-1968
+   sun.management.compiler                                               | HotSpot 64-Bit Tiered Compilers
+   sun.os.patch.level                                                    | unknown
+   JVM Input arguments                                                   | --add-opens=java.base/java.lang=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.io=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.util=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+                                                                         | --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+                                                                         | -Djava.util.logging.config.file=/opt/jfrog/artifactory/app/artifactory/tomcat/conf/logging.properties
+                                                                         | -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+                                                                         | -Djdk.tls.ephemeralDHKeySize=****
+                                                                         | -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+                                                                         | -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+                                                                         | -XX:+UseG1GC
+                                                                         | -XX:OnOutOfMemoryError=kill -9 %p
+                                                                         | --add-opens=java.base/java.util=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.text=ALL-UNNAMED
+                                                                         | --add-opens=java.base/java.nio=ALL-UNNAMED
+                                                                         | --add-opens=java.desktop/java.awt.font=ALL-UNNAMED
+                                                                         | -Dfile.encoding=UTF8
+                                                                         | -Djruby.compile.invokedynamic=false
+                                                                         | -Djruby.bytecode.version=1.8
+                                                                         | -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true
+                                                                         | -Djava.security.egd=file:/dev/./urandom
+                                                                         | -Dartdist=docker
+                                                                         | -Djf.product.home=/opt/jfrog/artifactory
+                                                                         | -Xms512m
+                                                                         | -Xmx2g
+                                                                         | -Djruby.bytecode.version=1.8
+                                                                         | -Dignore.endorsed.dirs=
+                                                                         | -Dcatalina.base=/opt/jfrog/artifactory/app/artifactory/tomcat
+                                                                         | -Dcatalina.home=/opt/jfrog/artifactory/app/artifactory/tomcat
+                                                                         | -Djava.io.tmpdir=/opt/jfrog/artifactory/var/work/artifactory/tomcat/temp
+
+ User Info
+ ========================
+   user.country                                                          | US
+   user.dir                                                              | /var/opt/jfrog/artifactory
+   user.home                                                             | /home/artifactory
+   user.language                                                         | en
+   user.name                                                             | artifactory
+   user.timezone                                                         | UTC
+
+ Host Info
+ ========================
+   Available Processors                                                  | 3
+   Heap Memory Usage-Commited                                            | 735051776
+   Heap Memory Usage-Init                                                | 536870912
+   Heap Memory Usage-Max                                                 | 2147483648
+   Heap Memory Usage-Used                                                | 207618048
+   Non-Heap Memory Usage-Commited                                        | 266170368
+   Non-Heap Memory Usage-Init                                            | 7667712
+   Non-Heap Memory Usage-Max                                             | -1
+   Non-Heap Memory Usage-Used                                            | 252628616
+   os.arch                                                               | amd64
+   os.name                                                               | Linux
+   os.version                                                            | 4.15.0-163-generic
+
+ Artifactory Info
+ ========================
+   artifactory.runMode.test                                              | false
+   artifactory.runMode.qa                                                | false
+   artifactory.runMode.dev                                               | false
+   artifactory.runMode.devHa                                             | false
+   artifactory.version                                                   | 7.33.9
+   artifactory.revision                                                  | 73309900
+   artifactory.buildNumber                                               | LOCAL
+   artifactory.timestamp                                                 | 1167040800000
+   artifactory.context.path                                              | /artifactory
+   artifactory.override.context.path                                     | /artifactory
+   artifactory.add.context.path                                          | true
+   artifactory.access.context.path                                       | /access
+   artifactory.servlet.supportUrlSessionTracking                         | false
+   artifactory.addons.disabled                                           | 
+   artifactory.addons.info.url                                           | http://service.jfrog.org/artifactory/addons/info/%s
+   artifactory.addons.info.url                                           | http://www.jfrog.com/confluence/display/RTF/%s
+   artifactory.jcr.addons.info.url                                       | http://www.jfrog.com/confluence/display/JCR/%s
+   artifactory.async.corePoolSize                                        | 12
+   artifactory.async.poolTtlSecs                                         | 60
+   artifactory.async.poolMaxQueueSize                                    | 10000
+   artifactory.versioningQueryIntervalSecs                               | 7200
+   artifactory.logs.viewRefreshRateSecs                                  | 10
+   artifactory.locks.timeoutSecs                                         | 120
+   artifactory.locks.debugTimeouts                                       | false
+   artifactory.task.pause.timeoutSecs                                    | 120
+   artifactory.task.retry.wait.beforeRescheduleSecs                      | 5
+   artifactory.task.completionLockTimeoutRetries                         | 100
+   artifactory.task.retry.enable                                         | true
+   artifactory.repo.concurrentDownloadSyncTimeoutSecs                    | 900
+   artifactory.repo.downloadStatsEnabled                                 | true
+   artifactory.repo.download.saveGetResource                             | false
+   artifactory.repo.global.disabled                                      | true
+   artifactory.fsitem.cache.idleTimeSecs                                 | 1200
+   artifactory.docker.tokens.cache.idleTimeSecs                          | 240
+   artifactory.artifactory.tokens.cache.idleTimeSecs                     | 600
+   artifactory.cacheFS.sync.quietPeriodSecs                              | 900
+   artifactory.search.maxResults                                         | 500
+   artifactory.search.userQueryLimit                                     | 1000
+   artifactory.search.max.list.size                                      | 600
+   artifactory.search.userSqlQueryLimit                                  | 2000
+   artifactory.search.limitAnonymousUsersOnly                            | true
+   artifactory.search.content.maxFragments                               | 500
+   artifactory.search.content.maxFragmentsSize                           | 5000
+   artifactory.search.archive.minQueryLength                             | 3
+   artifactory.search.pattern.timeoutSecs                                | 30
+   artifactory.search.projects.maxReposToProcess                         | 10
+   artifactory.gc.trashBinariesCleanup.enabled                           | false
+   artifactory.gc.trashBinariesCleanup.intervalSecs                      | 900
+   artifactory.gc.trashBinariesCleanup.delaySecs                         | -1
+   artifactory.gc.trashBinariesCleanup.maxQueueLength                    | 10000
+   artifactory.gc.useIndex                                               | false
+   artifactory.gc.intervalSecs                                           | 86400
+   artifactory.gc.delaySecs                                              | 7200
+   artifactory.gc.sleepBetweenNodesMillis                                | 20
+   artifactory.gc.scanStartSleepingThresholdMillis                       | 20000
+   artifactory.gc.scanSleepBetweenIterationsMillis                       | 200
+   artifactory.gc.fileScanSleepIterationMillis                           | 1000
+   artifactory.gc.fileScanSleepMillis                                    | 250
+   artifactory.gc.maxCacheEntries                                        | 10000
+   artifactory.gc.readersMaxTimeSecs                                     | 10800
+   artifactory.gc.failCount.threshold                                    | 10
+   artifactory.gc.binaries.joinWithNodes                                 | true
+   artifactory.gc.numberOfWorkersThreads                                 | 3
+   artifactory.gc.skipFullGcBetweenMinorIterations                       | 20
+   artifactory.gc.binariesToDeleteBatchSize                              | 10000
+   artifactory.gc.binariesToDeleteIterationAmount                        | 20
+   artifactory.gc.skipOrderByFullGc                                      | false
+   artifactory.traffic.collectionActive                                  | false
+   artifactory.traffic.v2.enabled                                        | false
+   artifactory.traffic.v2.enabled.finally                                | false
+   artifactory.traffic.ignore.range.header.when.calc.binary.size.for.redirect| false
+   artifactory.security.authentication.cache.initSize                    | 100
+   artifactory.security.authentication.cache.idleTimeSecs                | 300
+   artifactory.security.ui.authentication.cache.idleTimeSecs             | 15
+   artifactory.security.userLastAccessUpdatesResolutionSecs              | 5
+   artifactory.security.master.key                                       | ************************
+   artifactory.security.master.key.numOfFallbackKeys                     | *
+   artifactory.security.disableRememberMe                                | false
+   artifactory.security.rememberMe.lifetimeSecs                          | 1209600
+   artifactory.security.ldap.forceGroupMemberAttFullDN                   | false
+   artifactory.security.ldap.disable.group.search.attributes.limitation  | false
+   artifactory.security.ldap.group.policy.cleanOnFail                    | true
+   artifactory.security.ldap.group.search.filterThreshold                | 0
+   artifactory.security.ldap.group.cacheRetentionSecs                    | 300
+   artifactory.ldap.max.page.size                                        | 1000
+   artifactory.ldap.paging.support                                       | true
+   artifactory.ldap.disable.paging.support.period.minutes                | 10
+   artifactory.ldap.apply.headless.validation                            | true
+   artifactory.enable.aql.read.committed                                 | false
+   artifactory.enable.aql.remote                                         | true
+   artifactory.enable.aql.optimization.for.fromLeftOuterJoinToSubSelect  | false
+   artifactory.aql.transitive.remote.repos.limit                         | 5
+   artifactory.aql.transitive.collect.stats.enabled                      | true
+   artifactory.aql.transitive.collect.stats.cache.size                   | 5000
+   artifactory.mvn.central.hostPattern                                   | .maven.org
+   artifactory.mvn.central.indexerMaxQueryIntervalSecs                   | 86400
+   artifactory.mvn.metadata.plugin.calculation.workers                   | 2
+   artifactory.mvn.metadata.calculation.workers                          | 8
+   artifactory.mvn.dynamicMetadata.cacheRetentionSecs                    | 10
+   artifactory.mvn.metadata.version3.enabled                             | true
+   artifactory.mvn.custom.types                                          | tar.gz,tar.bz2
+   artifactory.mvn.metadata.lock                                         | false
+   artifactory.mvn.metadata.lock.time.sec                                | 60
+   artifactory.request.disableVersionTokens                              | false
+   artifactory.request.searchLatestReleaseByDateCreated                  | false
+   artifactory.npm.tag.tagLatestByPublish                                | false
+   artifactory.npm.repositories.download.priority.resolution             | true
+   artifactory.build.maxFoldersToScanForDeletionWarnings                 | 2
+   artifactory.build.checksum.cache.idleTimeSecs                         | 300
+   artifactory.updates.refreshIntervalSecs                               | 14400
+   artifactory.updates.url                                               | http://service.jfrog.org/artifactory/updates
+   artifactory.artifactoryRequestsToGlobalCanRetrieveRemoteArtifacts     | false
+   artifactory.ui.syntaxColoringMaxTextSizeBytes                         | 512000
+   artifactory.plugin.scripts.refreshIntervalSecs                        | 0
+   artifactory.aol.skip.skipable.converters                              | false
+   artifactory.plugin.aol.support                                        | false
+   artifactory.aol.dedicated.server                                      | false
+   artifactory.aol.displayAccountManagementLink                          | true
+   artifactory.aol.security.http.sso.enable                              | false
+   artifactory.aol.security.anon.access.enable                           | false
+   artifactory.aol.indexer.enable                                        | false
+   artifactory.aol.docker.skip.creating.dns.record                       | false
+   artifactory.ui.session.timeout.minutes                                | 30
+   artifactory.file.roller.maxFileToRetain                               | 10
+   artifactory.backup.fileExportSleepIterationMillis                     | 2000
+   artifactory.backup.fileExportSleepMillis                              | 250
+   artifactory.backup.maxUsedSpacePercent                                | 90
+   artifactory.s3.existsCheckAfterAddingStream                           | true
+   artifactory.binary.provider.artifacts.existence.cache.expirySecs      | 60
+   artifactory.binary.provider.artifacts.existence.cache.size            | 20000
+   artifactory.http.upstream.repository.status.expiration.seconds        | 600
+   artifactory.http.acceptEncoding.gzip                                  | true
+   artifactory.http.useExpectContinue                                    | false
+   artifactory.http.forceForbiddenResponse                               | false
+   artifactory.http.connectionPool.timeToLive                            | 30
+   artifactory.org.artifactory.util.enableIncludeNotModified             | true
+   artifactory.http.enableCookieManagement                               | false
+   artifactory.filtering.resourceSizeKb                                  | 64
+   artifactory.repo.remote.checkForExistingResourceOnRequest             | true
+   artifactory.version.query.enabled                                     | true
+   artifactory.response.disableContentDispositionFilename                | false
+   artifactory.composer.metadata.extractor.workers                       | 20
+   artifactory.composer.metadata.index.workers                           | 10
+   artifactory.composer.search.pages                                     | 10
+   artifactory.composer.search.results                                   | 1000
+   artifactory.chef.metadata.index.workers                               | 10
+   artifactory.yum.virtual.metadata.calculation.workers                  | 5
+   artifactory.rpm.metadata.calculation.workers                          | 8
+   artifactory.rpm.metadata.history.cycles.to.keep                       | 3
+   artifactory.rpm.metadata.require.logic.enabled                        | true
+   artifactory.debian.metadata.queue                                     | 
+   artifactory.debian.metadata.calculation.workers                       | 8
+   artifactory.debian.metadata.auto.calculation.disabled                 | false
+   artifactory.debian.coordinates.calculation.workers                    | 4
+   artifactory.debian.virtual.metadata.calculation.workers               | 5
+   artifactory.debian.remote.etag                                        | true
+   artifactory.debian.metadata.validation                                | true
+   artifactory.debian.metadata.calculateMd5InPackagesFiles               | false
+   artifactory.debian.use.acquire.byhash                                 | true
+   artifactory.debian.packages.byhash.history.cycles.to.Keep             | 3
+   artifactory.debian.release.extended.label                             | false
+   artifactory.archive.licenseFile.names                                 | license,LICENSE,license.txt,LICENSE.txt,LICENSE.TXT
+   artifactory.ui.search.maxRowsPerPage                                  | 20
+   artifactory.ui.search.artifacts.caseInsensitive                       | true
+   artifactory.replication.checksumDeploy.minSizeKb                      | 10
+   artifactory.replication.consumer.queueSize                            | 1
+   artifactory.replication.local.iteration.sleepThresholdMillis          | 1000
+   artifactory.replication.local.iteration.sleepMillis                   | 100
+   artifactory.replication.should.stop.check.interval                    | 1000
+   artifactory.replication.event.queue.size                              | 50000
+   artifactory.replication.properties.max.length                         | 100000
+   artifactory.replication.statistics.max.length                         | 5000
+   artifactory.replication.initContext.task.intervalSecs                 | 60
+   artifactory.replication.initContext.task.initialDelaySecs             | 5
+   artifactory.replication.push.fullTree.saveLocally                     | true
+   artifactory.replication.push.fullTree.saveLocally.free.disk.threshold.bytes| 100000000
+   artifactory.replication.push.caseDifference.support                   | false
+   artifactory.replication.events.research.cache.eviction.time.minutes   | 30
+   artifactory.request.explodedArchiveExtensions                         | zip,tar,tar.gz,tgz,7z,tar.bz2
+   artifactory.bintray.jcenter.url                                       | http://jcenter.bintray.com
+   artifactory.jcr.xray.demo.enabled                                     | false
+   artifactory.bintray.api.url                                           | https://api.bintray.com
+   artifactory.enable.ui.pages.in.Iframe                                 | false
+   artifactory.bintray.client.requestTimeoutMS                           | 150000
+   artifactory.bintray.client.signRequestTimeoutMS                       | 45000
+   artifactory.useUserNameAutoCompleteOnLogin                            | on
+   artifactory.ui.hideEncryptedPassword                                  | *****
+   artifactory.stats.flushIntervalSecs                                   | 30
+   artifactory.stats.remote.flushIntervalSecs                            | 35
+   artifactory.stats.flushTimeoutSecs                                    | 120
+   artifactory.integrationCleanup.intervalSecs                           | 300
+   artifactory.integrationCleanup.quietPeriodSecs                        | 60
+   artifactory.folderPruning.intervalSecs                                | 300
+   artifactory.folderPruning.quietPeriodSecs                             | 60
+   artifactory.repo.virtualCacheCleanup.maxAgeHours                      | 168
+   artifactory.repo.virtualCacheCleanup.pattern                          | *.pom
+   artifactory.security.authentication.password.salt                     | ****************
+   artifactory.db.idGenerator.fetch.amount                               | 2000
+   artifactory.db.idGenerator.max.update.retries                         | 50
+   artifactory.gems.localIndexTaskIntervalSecs                           | 30
+   artifactory.gems.virtualIndexTaskIntervalSecs                         | 300
+   artifactory.gems.remoteAllowCacheDependencies                         | true
+   artifactory.gems.gemsIndexTaskQueueLimit                              | 20000
+   artifactory.gems.gemsAfterRepoInitHack                                | true
+   artifactory.gems.number.of.split.iterations                           | 1
+   artifactory.gems.compact.index.enabled                                | false
+   artifactory.gems.compact.index.workers                                | 20
+   artifactory.gems.after.commit.workers                                 | 20
+   artifactory.gems.compact.etag.stash.size                              | 5000
+   artifactory.gems.compact.etag.cache.size                              | 20000
+   artifactory.gems.compact.etag.cache.eviction.time.minutes             | 15
+   artifactory.gems.compact.packages.cache.size                          | 100000
+   artifactory.gems.compact.packages.cache.eviction.time.minutes         | 15
+   artifactory.gems.compact.index.executor.max.pool.size                 | 8
+   artifactory.jruby.runtime.localContextMode                            | CONCURRENT
+   artifactory.jruby.unmarshal.allow.unsafe                              | false
+   artifactory.security.authentication.crowd.group.startIndex            | 0
+   artifactory.security.authentication.crowd.group.maxResults            | 9999
+   artifactory.ui.hideChecksums                                          | true
+   artifactory.airgap.recovery.intervalSecs                              | 300
+   artifactory.releasebundle.close.transaction.retries                   | 3
+   artifactory.releasebundle.close.transaction.retries.waiting.millis    | 1000
+   artifactory.releasebundle.close.transaction.with.bulk.operations      | true
+   artifactory.archive.indexer.intervalSecs                              | 60
+   artifactory.archive.indexer.disable.globally                          | false
+   artifactory.xray.indexer.intervalSecs                                 | 60
+   artifactory.xray.indexer.should.top.check.interval                    | 60
+   artifactory.xray.client.token.authentication.support                  | true
+   artifactory.xray.client.token.expiry.minutes                          | 1440
+   artifactory.xray.client.block.cache.expiration.intervalSecs           | 300
+   artifactory.xray.client.block.unscanned.cache.expiration.intervalSecs | 120
+   artifactory.xray.event.job.read.limit                                 | 10000
+   artifactory.xray.client.block.cache.size                              | 100000
+   artifactory.xray.client.heartbeat.intervalSecs                        | 5
+   artifactory.xray.client.repositories.policies.update.intervalSecs     | 20
+   artifactory.xray.client.repositories.policies.update.quietPeriodSecs  | 5
+   artifactory.xray.client.max.connections                               | 50
+   artifactory.xray.client.connection.timeout.millis                     | 5000
+   artifactory.xray.client.builds.socket.timeout.millis                  | 600000
+   artifactory.xray.client.normal.socket.timeout.millis                  | 25000
+   artifactory.xray.cleanup.job.quietPeriodSecs                          | 60
+   artifactory.xray.cleanup.job.db.query.limit                           | 100
+   artifactory.xray.cleanup.job.batch.size                               | 100
+   artifactory.xray.cleanup.job.sleep.interval.millis                    | 0
+   artifactory.xray.block.unscanned.recheck.intervalSecs                 | 20
+   artifactory.xray.repo.data.ttl.days                                   | 90
+   artifactory.nuget.inMemoryRemoteCaches                                | true
+   artifactory.nuget.forceAuthentication                                 | false
+   artifactory.nuget.allowRootGetWithAnon                                | false
+   artifactory.nuget.disableSemVer2SearchFilterForLocalRepos             | false
+   artifactory.nuget.disableSemverComparator                             | false
+   artifactory.nuget.ignoreIsLatestVersionFilter                         | true
+   artifactory.nuget.xstream.reusage.for.remote.metadata.enabled         | true
+   artifactory.nuget.v2.search.page.size                                 | 100
+   artifactory.nuget.v2.feed.calculation.workers                         | 5
+   artifactory.nuget.reindex.calculation.workers                         | 10
+   artifactory.nuget.allowV3Download                                     | true
+   artifactory.ha.orphan.cluster.singleton.lock.period.minutes           | 30
+   artifactory.ha.heartbeat.intervalSecs                                 | 5
+   artifactory.ha.heartbeat.staleSecs                                    | 30
+   artifactory.ha.heartbeat.stale.server.cleanup.periodMinutes           | 180
+   artifactory.ha.heartbeat.network.timeout                              | 10
+   artifactory.ha.propagation.http.socketTimeoutMs                       | 15000
+   artifactory.ha.propagation.http.connectionTimeoutMs                   | 5000
+   artifactory.ha.propagation.http.maxTotalConnections                   | 150
+   artifactory.ha.propagation.CallTimeoutSecs                            | 30
+   artifactory.binary.store.error.notification.intervalSecs              | 30
+   artifactory.binary.store.error.notification.staleSecs                 | 30
+   artifactory.binary.store.full.binary.provider.chain.ping              | true
+   artifactory.ha.membersIntroduction.intervalSecs                       | 30
+   artifactory.ha.membersIntroduction.staleSecs                          | 30
+   artifactory.npm.remote.metadata.content.validation                    | true
+   artifactory.npm.remote.metadata.json.accept.header                    | true
+   artifactory.npm.alternative.download.enabled                          | false
+   artifactory.npm.use.cache.on.remote.repo.fail.enabled                 | false
+   artifactory.npm.default.audit.provider                                | https://registry.npmjs.org
+   artifactory.npm.minimal.xray.audit.support                            | 2.8.0
+   artifactory.npm.virtual.cache.item.ttl.seconds                        | 600
+   artifactory.npm.virtual.cache.cleanup.batch.size                      | 1000
+   artifactory.npm.semver4j.enabled                                      | true
+   artifactory.npm.external.versioning.enabled                           | false
+   artifactory.npm.github.packages.url                                   | https://npm.pkg.github.com/
+   artifactory.import.max.parallelRepos                                  | 2
+   artifactory.debian.distribution.path                                  | dists
+   artifactory.opkg.metadata.calculation.workers                         | 5
+   artifactory.debian.default.architectures                              | i386,amd64
+   artifactory.pypi.index.quietPeriodSecs                                | 60
+   artifactory.pypi.index.sleepMilliSecs                                 | 60
+   artifactory.pypi.index.preferMetadataOnRootDepth                      | true
+   artifactory.pypi.preferLatestVersionSearch                            | true
+   artifactory.eventually.persisted.task.manager.jobSecs                 | 600
+   artifactory.docker.filter.catalog.by.user.permission                  | false
+   artifactory.docker.cleanup.maxAgeMillis                               | 86400000
+   artifactory.docker.cleanup.uploadsTmpFolderJobSecs                    | 86400
+   artifactory.docker.cleanup.tmpFolder.maxSearchResult                  | 5000
+   artifactory.docker.tags.cleanup.intervalSecs                          | 300
+   artifactory.docker.tags.cleanup.quietPeriodSecs                       | 60
+   artifactory.docker.tags.orphan.layer.cleanup.intervalSecs             | 90
+   artifactory.docker.tags.orphan.layer.cleanup.quietPeriodSecs          | 300
+   artifactory.docker.manifest.marker.lock.timeoutMillis                 | 30000
+   artifactory.docker.indexNumOfWorkerThreads                            | 5
+   artifactory.docker.pull.v1.schema.by.digest.enabled                   | false
+   artifactory.docker.cache.remote.repo.tags.and.catalog                 | 
+   artifactory.docker.search.manifest.by.digest.and.tag.enabled          | false
+   artifactory.docker.heuristic.search.repositories.limit                | 5
+   artifactory.docker.search.blob.by.filename.enabled                    | false
+   artifactory.docker.search.assume.sha2.migrated                        | true
+   artifactory.oci.accepted.user.agents.list                             | 
+   artifactory.http.range.support                                        | true
+   artifactory.acl.dirty.read.timeout                                    | 20000
+   artifactory.acl.version.cache.async.reload                            | false
+   artifactory.acl.version.cache.async.waiting.time.millis               | 60000
+   artifactory.acl.version.cache.async.waiting.on.error.time.millis      | 60000
+   artifactory.acl.minimum.wait.refresh.data.seconds                     | 30
+   artifactory.central.config.validation                                 | true
+   artifactory.central.config.remote.repo.url.validation                 | false
+   artifactory.central.config.dirty.read.timeout.millis                  | 2000
+   artifactory.central.config.latest.revisions.expire.after.access.seconds| 21600
+   artifactory.central.config.latest.revisions.dictionary.size           | 20
+   artifactory.central.config.save.number.of.retries                     | 5
+   artifactory.central.config.save.backoff.max.delay                     | 8000
+   artifactory.central.config.save.backoff.multiplier                    | 2
+   artifactory.repositories.dirty.read.timeout.millis                    | 5000
+   artifactory.repo.http.idleConnectionMonitorInterval                   | 10
+   artifactory.repo.http.disableIdleConnectionMonitoring                 | false
+   artifactory.support.core.bundle.contentCollectionAwaitTimeout         | 60
+   artifactory.support.core.bundle.waitForSlotBeforeWithdraw             | 600
+   artifactory.support.core.bundle.maxBundles                            | 5
+   artifactory.support.bundle.retrieval.token.expiry.minutes             | 5
+   artifactory.binary.provider.zones                                     | a,b,c
+   artifactory.binary.provider.prune.chunk.size                          | 500
+   artifactory.properties.search.chunk.size                              | 500
+   artifactory.exists.repo.chunk.size                                    | 500
+   artifactory.security.useFrontCacheForBlockedUsers                     | true
+   artifactory.security.loginBlockDelay                                  | 1000
+   artifactory.security.maxLoginBlockDelay                               | 60000
+   artifactory.security.max.incorrect.login.attempts                     | 2
+   artifactory.security.max.users.toTrack                                | 10000
+   artifactory.security.password.expiry.passwordExpireNotificationJobIntervalSecs| *****
+   artifactory.security.password.expiry.passwordExpireJobIntervalSecs    | *****
+   artifactory.security.password.expiry.daysToNotifyBefore               | *
+   artifactory.http.client.max.total.connections                         | 50
+   artifactory.http.client.max.connections.per.route                     | 50
+   artifactory.http.client.max.docker.token.connections                  | 2
+   artifactory.hazelcast.max.lock.lease.time.minutes                     | 30
+   artifactory.repo.remote.blockedMismatchingMimeTypes                   | text/html,application/xhtml+xml
+   artifactory.mvn.metadata.calculation.skip.delete.event                | false
+   artifactory.repo.remote.browsing.content.length.limit.KB              | 1024
+   artifactory.repo.browsing.content.security.policy                     | sandbox
+   artifactory.repo.remote.syncProperties.blacklistUrls                  | 
+   artifactory.remote.repo.url.strict.policy                             | true
+   artifactory.remote.repo.url.verifier.cache.expirySecs                 | 300
+   artifactory.remote.repo.url.verifier.cache.size                       | 200
+   artifactory.sumologic.api.url                                         | https://auth.sumologic.com
+   artifactory.move.copy.max.folder.cache.size                           | 1000000
+   artifactory.move.copy.default.transaction.size                        | 1000
+   artifactory.node.properties.replace.all                               | false
+   artifactory.node.properties.log.performance                           | false
+   artifactory.workQueue.execution.syncExecutionTimeoutSec               | 120
+   artifactory.workQueue.dojob.enabled                                   | true
+   artifactory.workQueue.dojob.intervalSecs                              | 5
+   artifactory.workitem.max.lock.lease.time.minutes                      | 30
+   artifactory.workqueue.max.execution.sec                               | 60
+   artifactory.persistentQueue.repo.min.event.expire.sec                 | 3600
+   artifactory.persistentQueue.max.lock.lease.time.minutes               | 1
+   artifactory.persistentQueue.check.trigger.sec                         | 3600
+   artifactory.persistentQueue.errors.check.trigger.sec                  | 30
+   artifactory.persistentQueue.trigger.number.of.threads                 | 10
+   artifactory.ha.messages.workers                                       | 10
+   artifactory.airgap.workers                                            | 5
+   artifactory.db.operations.bulk.size                                   | 500
+   artifactory.flat.copy.move.bulk.size                                  | 10000
+   artifactory.async.delete.item.workers                                 | 5
+   artifactory.security.communication.constant                           | ArtifactorySecurityCommunicationConstant
+   artifactory.nuget.disablePermissionCheck                              | false
+   artifactory.treebrowser.sortRepositories.sortByType                   | virtual,local,remote,cached
+   artifactory.treebrowser.folder.compact                                | true
+   artifactory.maven.metadata.publishModelVersion                        | true
+   artifactory.access.token.expiresIn.default                            | 3600
+   artifactory.access.token.non.admin.max.expires.in                     | 3600
+   artifactory.access.token.file.limitedForAnonymous                     | true
+   artifactory.access.token.file.non.admin.max.expires.in                | 10800
+   artifactory.access.client.token.verify.result.cache.size              | -1
+   artifactory.access.client.token.verify.result.cache.expiry            | -1
+   artifactory.access.client.waitForServer                               | 90
+   artifactory.access.client.max.connections                             | 50
+   artifactory.access.client.connection.timeout                          | -1
+   artifactory.access.client.socket.timeout                              | -1
+   artifactory.access.client.force.rest                                  | false
+   artifactory.access.client.force.grpc                                  | false
+   artifactory.access.client.startup.ping.retries                        | 90
+   artifactory.access.grpc.client.keepalive.timeoutMillis                | 15000
+   artifactory.access.grpc.client.resubscribe.delayMillis                | 5000
+   artifactory.access.client.projects.config.cache.expirySecs            | 86400
+   artifactory.access.client.projects.config.cache.size                  | 50000
+   artifactory.access.client.projects.config.ignored                     | false
+   artifactory.props.token.cache.size                                    | 5000
+   artifactory.props.token.cache.expiry.secs                             | 300
+   artifactory.metadata.client.max.connections                           | 50
+   artifactory.metadata.client.connection.timeout                        | 10000
+   artifactory.metadata.client.socket.timeout                            | 300000
+   artifactory.metadata.client.serverUrl.override                        | http://localhost:8086
+   artifactory.metadata.event.operator.threads                           | 5
+   artifactory.metadata.event.operator.dispatcher.interval.secs          | 60
+   artifactory.metadata.event.unstable.margin.secs                       | 60
+   artifactory.metadata.native.ui                                        | true
+   artifactory.metadata.server.events.persistence                        | distributed
+   artifactory.metadata.server.max.files.to.write.per.version            | 1000
+   artifactory.security.active.principal.token.ttl                       | 600
+   artifactory.security.active.principal.token.ttl                       | 10000
+   artifactory.saml.requests.ids.cache.size                              | 3000
+   artifactory.saml.inResponseTo.validation.enable                       | false
+   artifactory.puppet.metadata.calculation.workers                       | 5
+   artifactory.puppet.repo.metadata.calculation.workers                  | 5
+   artifactory.puppet.reindex.period                                     | 1800
+   artifactory.puppet.additional.modulegroup                             | 
+   artifactory.puppet.additional.endorsement                             | 
+   artifactory.onboarding.skipWizard                                     | false
+   artifactory.configuration.manager.retry.amount                        | 3
+   artifactory.configuration.manager.quiet.period                        | 20000
+   artifactory.configuration.manager.blocking.time                       | 60000
+   artifactory.aggregation.time.window.secs                              | 60
+   artifactory.most.downloaded.cache.idleTimeSecs                        | 900
+   artifactory.replication.eventBased.connection.maxDelay                | 1800000
+   artifactory.replications.eventbased.workers                           | 8
+   artifactory.replication.eventbased.maxQueueItems                      | 500
+   artifactory.replication.eventbased.maxPullReplicationsPerRepo         | 30
+   artifactory.replication.eventbased.maxPullReplicationInboundEventsPerRepo| 10000
+   artifactory.replication.eventbased.pullInboundUseSimpleExecutor       | false
+   artifactory.replication.eventbased.pullDispatcher.timeMillis          | 1511
+   artifactory.ha.replication.max.pool.size                              | 16
+   artifactory.build.retention.enabled                                   | true
+   artifactory.build.retention.workers                                   | 10
+   artifactory.build.retention.always.async                              | false
+   artifactory.build.info.migration.job.enabled                          | true
+   artifactory.build.info.migration.job.queue.workers                    | 2
+   artifactory.build.info.migration.fix.properties                       | false
+   artifactory.build.ui.skip.delete.permission.check                     | false
+   artifactory.locking.provider.type                                     | db
+   artifactory.db.lock.cleanup.job.interval                              | 120
+   artifactory.db.lock.cleanup.job.stale.interval                        | 120
+   artifactory.db.mssql.property.value.max.size                          | 900
+   artifactory.db.postgres.property.value.max.size                       | 2400
+   artifactory.db.lock.conditional.insert.enabled                        | true
+   artifactory.db.lock.max.wait.ms                                       | 2048
+   artifactory.db.lock.initial.wait.ms                                   | 8
+   artifactory.db.lock.max.retry.deletions                               | 3
+   artifactory.db.lock.initial.unlock.wait.ms                            | 4
+   artifactory.migration.job.waitForCluster.sleepIntervalMillis          | 300000
+   artifactory.migration.job.dbQueryLimit                                | 100
+   artifactory.migration.job.batchSize                                   | 10
+   artifactory.migration.job.sleepIntervalMillis                         | 5000
+   artifactory.sha2.migration.job.queue.workers                          | 2
+   artifactory.sha2.migration.job.enabled                                | false
+   artifactory.pathChecksum.migration.job.enabled                        | false
+   artifactory.pathChecksum.migration.job.queue.workers                  | 2
+   artifactory.upload.failOnChecksumValidationError                      | false
+   artifactory.remote.download.inVain.consume.limit.inMegaBytes          | 1
+   artifactory.remote.fetching.list.maximum.iteration                    | 3
+   artifactory.service.name                                              | https://localhost:8080/artifactory/webapp/
+   artifactory.helm.metadata.calculation.workers                         | 5
+   artifactory.helm.virtual.metadata.calculation.workers                 | 5
+   artifactory.alpine.metadata.calculation.workers                       | 5
+   artifactory.alpine.virtual.metadata.calculation.workers               | 5
+   artifactory.cargo.metadata.calculation.workers                        | 5
+   artifactory.cargo.index.queue.max.items                               | 100
+   artifactory.cargo.timeout.gitServlet.init.millis                      | 30000
+   artifactory.pub.metadata.calculation.workers                          | 5
+   artifactory.pub.index.queue.max.items                                 | 100
+   artifactory.swift.metadata.calculation.workers                        | 5
+   artifactory.swift.index.queue.max.items                               | 100
+   artifactory.cran.metadata.calculation.workers                         | 5
+   artifactory.conan.metadata.calculation.workers                        | 5
+   artifactory.conan.index.timestamp.override.threshold.millis           | 60000
+   artifactory.conan.v2.migration.job.enabled                            | true
+   artifactory.conan.v2.migration.job.queue.workers                      | 2
+   artifactory.git.repositories.workers                                  | 5
+   artifactory.sql.converter.allowExternalConversionScripts              | false
+   artifactory.database.converters.skip                                  | false
+   artifactory.master.key.waiting.timeout.millis                         | *****
+   artifactory.join.key.waiting.timeout.millis                           | *****
+   artifactory.bootstrap.logger.debug                                    | false
+   artifactory.enable.context.aware.logger                               | false
+   artifactory.send.overwrites.to.trashcan                               | true
+   artifactory.trashcan.max.search.results                               | 10000
+   artifactory.keep.trashcan.empty.folders                               | true
+   artifactory.enable.replicator.use                                     | true
+   artifactory.start.local.replicator                                    | false
+   artifactory.min.replicator.use.filesize.in.bytes                      | 8000000
+   artifactory.block.on.conversion.cache.timeout.in.millis               | 0
+   artifactory.node.events.enabled                                       | true
+   artifactory.node.events.metrics.enabled                               | true
+   artifactory.node.events.max.time                                      | 31536000000
+   artifactory.jobs.table.ttl.millis                                     | 604800000
+   artifactory.jobs.table.fetch.limit                                    | 10000
+   artifactory.replication.full.useEventLog                              | false
+   artifactory.replication.full.eventlog.commit.durationMillis           | 5000
+   artifactory.replication.full.eventlog.forceSuccessfulFullTree         | false
+   artifactory.replication.errorQueue.maxErrors                          | 100
+   artifactory.replication.errorQueue.enabled                            | false
+   artifactory.replication.errorQueue.retryCount                         | 10
+   artifactory.releasebundle.cleanup.intervalSecs                        | 3600
+   artifactory.releasebundle.distribute.streaming.intervalSecs           | 15
+   artifactory.local.port.for.replicator                                 | 8081
+   artifactory.package.native.ui.results                                 | 1000
+   artifactory.package.native.ui.include.total.downloads                 | true
+   artifactory.package.native.ui.search.by.path                          | false
+   artifactory.http.sso.create.session.ui.request.only                   | true
+   artifactory.s3.autoBucketCreation.skip                                | false
+   artifactory.global.message.cache.ageSecs                              | 10
+   artifactory.apply.local.repos.permissions.on.remote.repos             | true
+   artifactory.apply.remote.repos.permissions.on.local.repos             | true
+   artifactory.ui.continue.paging.limit                                  | 500
+   artifactory.redirect.native.browser.requests.to.ui                    | true
+   artifactory.redirect.native.browser.engine.list                       | webkit, blink, edgehtml, trident, gecko, flow, goanna
+   artifactory.conda.metadata.calculation.workers                        | 5
+   artifactory.npm.metadata.calculation.workers                          | 10
+   artifactory.npm.reindex.metadata.calculation.workers                  | 10
+   artifactory.go.github.useRaw                                          | false
+   artifactory.go.pathFallback.allow                                     | false
+   artifactory.go.sumdb.enabled                                          | true
+   artifactory.go.latest.version.support                                 | true
+   artifactory.go.skip.github.get.import.path.request                    | true
+   artifactory.native.ui.search.max.time.millis                          | 60000
+   artifactory.access.admin.default.password.check.period.millis         | *****
+   artifactory.signed.url.cdn.validForSecs                               | 30
+   artifactory.signed.url.validForSecs                                   | 86400
+   artifactory.signed.url.ui.download.valid.for.secs                     | 300
+   artifactory.should.include.native.prop.keys                           | ****
+   artifactory.replication.skip.check.localgenerated                     | false
+   artifactory.docker.catalogs.tags.fallback.fetch.remote.cache          | false
+   artifactory.sql.server.query.builder.force.add.offset.to.query        | false
+   artifactory.support.bundles.retention.count                           | 15
+   artifactory.max.artifacts.permission.test.on.checksum.deploy          | 10
+   artifactory.ignore.checksum.deploy.permission.check                   | false
+   artifactory.enforce.permission.check.on.identical.checksum.deploy     | false
+   artifactory.list.of.repos.allowed.send.redirect.url                   | 
+   artifactory.cloud.binary.provider.redirect.threshold.in.bytes         | 204800
+   artifactory.internal.request.disable.method.delegation                | false
+   artifactory.is.add.user.name.to.sign.url.for.redirect                 | false
+   artifactory.list.of.repos.hosts.need.to.avoid.url.normalisation       | mcr.microsoft.com, pkgs.dev.azure.com, nuget.pkg.github.com, promitor.azurecr.io
+   artifactory.cipher.black.list                                         | 
+   artifactory.key.exchange.black.list                                   | 
+   artifactory.ssh.mac.black.list                                        | 
+   artifactory.ssh.signature.black.list                                  | 
+   artifactory.ssh.cipher.algorithms                                     | 
+   artifactory.ssh.key.exchange.algorithms                               | 
+   artifactory.ssh.mac.algorithms                                        | 
+   artifactory.ssh.signature.algorithms                                  | 
+   artifactory.max.release.bundle.size.to.display                        | 3000
+   artifactory.events.log.cleanup.task.period.hours                      | 13
+   artifactory.events.log.cleanup.age.of.entries.to.discard.days         | 60
+   artifactory.replication.events.fetch.batch.limit                      | 1000
+   artifactory.events.log.cleanup.interval.hours                         | 4
+   artifactory.events.log.cleanup.iteration.sleep.time.millis            | 10
+   artifactory.shutdown.on.invalid.db.scheme                             | false
+   artifactory.update.storage.status.enabled                             | false
+   artifactory.update.storage.status.cron                                | 0 0/15 * ? * *
+   artifactory.storage.usage.sync.max.retries.until.flush                | 15
+   artifactory.storage.usage.save.number.of.retries                      | 5
+   artifactory.storage.usage.save.backoff.max.delay                      | 8000
+   artifactory.storage.usage.save.backoff.multiplier                     | 2
+   artifactory.projects.storage.quota.enabled                            | true
+   artifactory.projects.storage.quota.error.tolerance.percentage         | 1
+   artifactory.projects.storage.quota.notification.threshold.hardLimit.percentage| 75
+   artifactory.projects.storage.quota.notification.job.interval.minutes  | 60
+   artifactory.projects.storage.quota.notification.job.initial.delay.minutes| 10
+   artifactory.projects.storage.quota.notification.period                | 720
+   artifactory.allow.insecure.templates                                  | false
+   artifactory.docker.blobs.caches.enabled                               | true
+   artifactory.docker.blobs.cache.stat.print.interval.millis             | 300000
+   artifactory.docker.verify.blob.checksum.before.caching                | false
+   artifactory.security.authentication.skip.artifactory.redirect         | false
+   artifactory.system.import.enabled                                     | true
+   artifactory.repository.import.enabled                                 | true
+   artifactory.allow.export.import.insecure.paths                        | false
+   artifactory.ha.affinity.task.fallback                                 | false
+   artifactory.ha.task.affinity.enabled                                  | true
+   artifactory.oauth.redirect.prefer.custom.base.url                     | true
+   artifactory.default.pipelines.repo.key                                | **************
+   artifactory.event.client.timeout.seconds                              | 60
+   artifactory.jf.event.max.workers                                      | 60
+   artifactory.use.repo.path.on.remote.offline                           | true
+   artifactory.online.monitor.threads.count                              | 10
+   artifactory.metrics.enabled                                           | false
+   artifactory.usageMetrics.enabled                                      | false
+   artifactory.exclude.artifacts.from.metadata                           | false
+   artifactory.exclude.artifacts.from.metadata.cache.size                | 20000
+   artifactory.exclude.artifacts.from.metadata.cache.eviction.time       | 15
+   artifactory.include.md5.into.etag.check                               | false
+   artifactory.security.api.plus.insteadof.space                         | true
+   artifactory.sync.resources.with.access.job.interval                   | 900000
+   artifactory.validate.lowercase.username.on.group.association          | false
+   artifactory.builds.db.force.override.enabled                          | false
+   artifactory.shift.events.try.lock.timeout.ms                          | 120000
+   artifactory.shift.events.periodic.ms                                  | 30000
+   artifactory.shift.events.sql.limit                                    | 1000
+   artifactory.node.events.event.id.migration.margin                     | 1000000
+   artifactory.federated.max.config.threads                              | 5
+   artifactory.federated.repo.heartbeat.stale.sec                        | 600
+   artifactory.federated.repo.max.total.http.connections                 | 50
+   artifactory.federated.repo.full.sync.enabled                          | true
+   artifactory.federated.repo.full.sync.lock.time.min                    | 1440
+   artifactory.federated.repo.full.sync.stale.lock.time.min              | 60
+   artifactory.federated.repo.remote.validate.timeout.sec                | 60
+   artifactory.federated.repo.cleanup.lazy.temp.dir.deleted.interval.secs| 86400
+   artifactory.federated.repo.cleanup.lazy.temp.dir.orphan.artifacts.interval| 86400
+   artifactory.federated.repo.executor.enabled                           | true
+   artifactory.federated.repo.executor.maxPoolSize                       | 12
+   artifactory.federated.repo.max.threads.percent                        | 10
+   artifactory.federated.repo.executor.poolTtlSecs                       | 60
+   artifactory.federated.repo.executor.poolMaxQueueSize                  | 10000
+   artifactory.replication.full.sync.log.progress.interval               | 1000
+   artifactory.event.log.work.queue.number.of.threads                    | 10
+   artifactory.block.redirects.to.local.resources                        | false
+   artifactory.http.repo.hosts.cache.eviction.time.minutes               | 1440
+   artifactory.repo.remote.follow.redirect.settings                      | true
+   artifactory.bearer.auth.max.allowed.retries                           | 3
+   artifactory.retention.enabled                                         | true
+   artifactory.retention.cold.http.client.socketTimeout                  | 15000
+   artifactory.retention.cold.http.client.max.total.connections          | 50
+   artifactory.retention.cold.http.client.max.connections.per.route      | 50
+   artifactory.retention.cold.restore.render.tree.concurrency.level      | 5
+   artifactory.retention.cold.restore.status.mapper.intervalSecs         | 120
+   artifactory.retention.cold.cleanup.cron                               | 0 0 2 ? * *
+   artifactory.retention.cold.cleanup.enabled                            | true
+   artifactory.retention.cold.cleanup.batchSize                          | 10000
+   artifactory.retention.warm.restore.pull.items.intervalSecs            | 120
+   artifactory.retention.warm.restore.batchSize                          | 1000
+   artifactory.retention.warm.restore.concurrency.maxLevel               | 5
+   artifactory.retention.warm.restore.bandwidth.maxSizeMb                | 0
+   artifactory.retention.warm.restore.error.threshold.percent            | 10
+   artifactory.retention.warm.restore.partition.size                     | 100
+   artifactory.retention.warm.restore.artifact.limit                     | 30000
+   artifactory.retention.warm.archive.batchSize                          | 10000
+   artifactory.retention.warm.archive.concurrency.maxLevel               | 5
+   artifactory.retention.warm.archive.bandwidth.maxSizeMb                | 0
+   artifactory.retention.warm.archive.policies.concurrent.maxCount       | 2147483647
+   artifactory.retention.warm.archive.error.threshold.percent            | 10
+   artifactory.retention.warm.archive.undeploy                           | true
+   artifactory.retention.warm.archive.partition.size                     | 1000
+   artifactory.retention.warm.archive.acquire.semaphore.sleep.millis     | 500
+   artifactory.retention.warm.archive.acquire.semaphore.timeoutSecs      | 1800
+   artifactory.retention.warm.refresh.master.token.periodDays            | 10
+   artifactory.retention.warm.refresh.scoped.token.periodMinutes         | 30
+   artifactory.allow.aol.config.override.changes                         | false
+   artifactory.yum.xml.printer.mode                                      | 0
+   artifactory.tree.node.tabs.scan.visibility.min.xray.version           | 3.34.0
+   artifactory.pub.repository.enabled                                    | true
+   artifactory.pub.sign.url.enabled                                      | false
+   artifactory.httpconnections.metrics.max.total.repositories            | 10
+   artifactory.terraform.registry.enable                                 | false
+   artifactory.terraform.metadata.calculation.workers                    | 5
+   artifactory.terraform.override.modules.source.hostname                | true
+   artifactory.swift.repository.enabled                                  | false
+   artifactory.standalone.show.detailed.footer                           | true
+   artifactory.generated.password.expiration.periodMinutes               | **
+   artifactory.mirror.full.sync.workers                                  | 3
+   artifactory.mirror.heartbeat.workers                                  | 3
+   artifactory.mirror.heartbeat.interval.sec                             | 20
+   artifactory.mirror.heartbeat.initial.delay.sec                        | 5
+   artifactory.mirror.temp.heartbeat.initial.delay.sec                   | 5
+   artifactory.mirror.heartbeat.bulk.support.clean.interval.hours        | 12
+   artifactory.mirror.clients.cleaner.interval.hours                     | 4
+   artifactory.mirror.heartbeat.lock.lease.time.min                      | 3
+   artifactory.full.sync.job.interval.sec                                | 20
+   artifactory.full.sync.job.initial.delay.min                           | 1
+
+2022-03-07T11:01:43.693Z [jfrt ] [INFO ] [58663685340e394a] [tegrationCleanupServiceImpl:75] [art-init            ] - Using generated cron 0 30 0 ? * * for jobs table cleanup
+2022-03-07T11:01:43.718Z [jfrt ] [ERROR] [58663685340e394a] [yMetadataClientConfigStore:122] [art-init            ] - Unable to request the Metadata Service Service-Id: Failed executing api/v1/system/service_id, with response code: HTTP/1.1 404 Not Found and response message: Not Found
+2022-03-07T11:01:43.718Z [jfrt ] [WARN ] [58663685340e394a] [s.MetadataEventServiceImpl:377] [art-init            ] - Unable to init the Metadata client. The Metadata Event pipeline will be disabled: Unable to request the Metadata Service Service-Id
+2022-03-07T11:01:43.718Z [jfrt ] [WARN ] [58663685340e394a] [s.MetadataEventServiceImpl:381] [art-init            ] - Metadata Client not initialized. Starting Metadata Server Status Probe
+2022-03-07T11:01:43.719Z [jfrt ] [INFO ] [2a9a84b6bbd9cd5a] [o.a.e.w.StatusProbeImpl:37    ] [-events-status-probe] - Status probe started (Owner: metadata-operator-events)
+2022-03-07T11:01:43.723Z [jfrt ] [ERROR] [58663685340e394a] [yMetadataClientConfigStore:122] [art-init            ] - Unable to request the Metadata Service Service-Id: Failed executing api/v1/system/service_id, with response code: HTTP/1.1 404 Not Found and response message: Not Found
+2022-03-07T11:01:43.723Z [jfrt ] [WARN ] [58663685340e394a] [s.MetadataEventServiceImpl:377] [art-init            ] - Unable to init the Metadata client. The Metadata Event pipeline will be disabled: Unable to request the Metadata Service Service-Id
+2022-03-07T11:01:43.867Z [jfrt ] [INFO ] [58663685340e394a] [d.c.m.ConverterManagerImpl:212] [art-init            ] - Triggering POST_INIT conversion, from 7.18.5 to 7.33.9
+2022-03-07T11:01:43.868Z [jfrt ] [INFO ] [58663685340e394a] [d.c.m.ConverterManagerImpl:215] [art-init            ] - Finished POST_INIT conversion, current version is: 7.33.9
+2022-03-07T11:01:43.868Z [jfrt ] [INFO ] [58663685340e394a] [d.c.m.ConverterManagerImpl:249] [art-init            ] - Updating database properties to running version CompoundVersionDetails{version=7.33.9, buildNumber='LOCAL', timestamp=1167040800000}
+2022-03-07T11:01:43.894Z [jfrt ] [INFO ] [58663685340e394a] [ifactoryApplicationContext:564] [art-init            ] - Artifactory application context set to READY by refresh
+2022-03-07T11:01:43.914Z [jfrt ] [INFO ] [672da0862455a00a] [adsFolderCleanupServiceImpl:52] [art-exec-4          ] - Starting docker temp folder cleanup
+2022-03-07T11:01:43.918Z [jfrt ] [INFO ] [672da0862455a00a] [adsFolderCleanupServiceImpl:54] [art-exec-4          ] - Docker temp folder cleanup finished, time took: 4 millis
+2022-03-07T11:01:43.924Z [jfrt ] [INFO ] [58663685340e394a] [.w.NodeEventTaskManagerImpl:41] [art-init            ] - Event management started on behalf of Event Operator with ID 'metadata-operator-events'
+2022-03-07T11:01:43.928Z [jfrt ] [INFO ] [58663685340e394a] [o.a.s.s.StorageServiceImpl:533] [art-init            ] - Scheduling CalculateReposStorageSummaryJob to run at '0 14 * ? * *'
+2022-03-07T11:01:43.929Z [jfrt ] [INFO ] [58663685340e394a] [o.a.s.s.StorageServiceImpl:562] [art-init            ] - LogStorageStatusJob disabled and not scheduled to run
+2022-03-07T11:01:43.930Z [jfrt ] [INFO ] [58663685340e394a] [o.a.s.s.StorageServiceImpl:551] [art-init            ] - Scheduling SyncStorageUsageJob to run at '40 0/1 * ? * * *'
+2022-03-07T11:01:43.953Z [jfrt ] [INFO ] [58663685340e394a] [o.a.m.f.MetricsServiceImpl:137] [art-init            ] - Metric Framework Service is enabled: false
+2022-03-07T11:01:43.954Z [jfrt ] [INFO ] [58663685340e394a] [.FeatureAdoptionServiceImpl:58] [art-init            ] - Usage Metrics Service is enabled: false
+2022-03-07T11:01:43.991Z [jfrt ] [INFO ] [58663685340e394a] [o.a.s.a.AccessServiceImpl:1728] [art-init            ] - Successful register of Artifactory serviceId jfrt@01e6gkzhtba2gz14rj5jrj009s in Access Federation
+2022-03-07T11:01:44.026Z [jfrt ] [INFO ] [58663685340e394a] [o.a.p.ProjectsServiceImpl:492 ] [art-init            ] - Scheduling ProjectStorageQuotaNotificationJob to run every 60 minutes
+2022-03-07T11:01:44.033Z [jfrt ] [INFO ] [                ] [d.DatabaseConverterRunnable:43] [pool-31-thread-1    ] - Starting Async converter thread.
+2022-03-07T11:01:44.035Z [jfrt ] [INFO ] [58663685340e394a] [ctoryContextConfigListener:272] [art-init            ] - Artifactory (jfrt) service initialization completed in 23.070 seconds. Listening on port: 8081
+2022-03-07T11:01:44.043Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v78 with description: "v78_change_nodes_node_name_idx"
+2022-03-07T11:01:44.043Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v78` is done with status `SKIPPED`.
+2022-03-07T11:01:44.054Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v79 with description: "v79_change_nodes_node_path_idx"
+2022-03-07T11:01:44.054Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v79` is done with status `SKIPPED`.
+2022-03-07T11:01:44.056Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v80 with description: "v80_change_nodes_node_repo_path_idx"
+2022-03-07T11:01:44.056Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v80` is done with status `SKIPPED`.
+2022-03-07T11:01:44.058Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v81 with description: "Create index `bundle_files_node_id_idx` for `bundle_files` on `node_id` field."
+2022-03-07T11:01:44.064Z [jfrt ] [INFO ] [                ] [j.c.u.PreDefinedConverters:374] [pool-31-thread-1    ] - Searching for default DB conversion template at /templates/default/create_index.tpl
+2022-03-07T11:01:44.076Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v81` is done with status `COMPLETED`.
+2022-03-07T11:01:44.078Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v95 with description: "Create index `node_events_tmp_event_id_idx` for `node_events_tmp` on `tmp_event_id` field."
+2022-03-07T11:01:44.141Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v95` is done with status `SKIPPED`.
+2022-03-07T11:01:44.143Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v111 with description: "v111_prepare_change_node_props_node_prop_value_idx"
+2022-03-07T11:01:44.143Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v111` is done with status `SKIPPED`.
+2022-03-07T11:01:44.146Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v112 with description: "v112_alter_node_props_node_prop_value_idx"
+2022-03-07T11:01:44.147Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v112` is done with status `SKIPPED`.
+2022-03-07T11:01:44.149Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v113 with description: "v113_prepare_change_node_props_prop_key_value_idx"
+2022-03-07T11:01:44.150Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v113` is done with status `SKIPPED`.
+2022-03-07T11:01:44.154Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v114 with description: "v114_alter_node_props_prop_key_value_idx"
+2022-03-07T11:01:44.154Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v114` is done with status `SKIPPED`.
+2022-03-07T11:01:44.157Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v115 with description: "v115_prepare_change_node_props_prop_value_key_idx"
+2022-03-07T11:01:44.158Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v115` is done with status `SKIPPED`.
+2022-03-07T11:01:44.162Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:36  ] [pool-31-thread-1    ] - Starting converter v116 with description: "v116_alter_node_props_prop_value_key_idx"
+2022-03-07T11:01:44.162Z [jfrt ] [INFO ] [                ] [o.j.c.AbstractDbConverter:51  ] [pool-31-thread-1    ] - Converter `v116` is done with status `SKIPPED`.
+2022-03-07T11:01:48.937Z [jfrt ] [INFO ] [b7a41f3351417162] [actoryHeartbeatServiceImpl:280] [art-exec-10         ] - Deleting residual Artifactory Server entry with ID '71e9048eeaf5' (last heartbeat was more than 180 minutes ago at '1620219218206')
+2022-03-07T11:02:02.223Z [jfrt ] [INFO ] [                ] [o.j.c.ConfigWrapperImpl:342   ] [e-watcher-notifier-1] - [Node ID: cf274545263b]  detected local  modify for config 'artifactory/config/security/access/access.admin.token'
+2022-03-07T11:02:14.032Z [jfrt ] [INFO ] [909e8c34e878b53f] [a.e.EventsLogCleanUpService:74] [art-exec-10         ] - Starting cleanup of old events from event log
+2022-03-07T11:02:36.593Z [jfrt ] [INFO ] [909e8c34e878b53f] [.e.EventsLogCleanUpService:113] [art-exec-10         ] - Cleanup of old events from event log finished
+2022-03-07T11:03:43.838Z [jfrt ] [INFO ] [2a9a84b6bbd9cd5a] [s.MetadataEventServiceImpl:543] [-events-status-probe] - Metadata Service Probing succeeded. The event pipeline was re-enabled.
+2022-03-07T11:21:22.989Z [jfrt ] [WARN ] [1284fda964f1eadc] [.r.c.s.ResearchServiceImpl:265] [ttp-nio-8081-exec-10] - We were unable to check repoType, maybe it does not exist
+2022-03-07T11:21:41.890Z [jfrt ] [INFO ] [5e87576de242cf3b] [o.a.t.OutboundRequestLogger:22] [http-nio-8081-exec-6] - 2022-03-07T11:21:41.890Z|5e87576de242cf3b|jcenter||HEAD|https://jcenter.bintray.com/|200|0|0|1371
+2022-03-07T11:21:43.325Z [jfrt ] [INFO ] [5e87576de242cf3b] [o.a.t.OutboundRequestLogger:22] [http-nio-8081-exec-6] - 2022-03-07T11:21:43.325Z|5e87576de242cf3b|jcenter||GET|https://jcenter.bintray.com/|200|0|0|1429

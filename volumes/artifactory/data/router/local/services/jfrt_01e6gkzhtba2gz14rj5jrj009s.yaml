@@ -1,15 +1,17 @@
 endpoints:
-  - paths:
-      - match: /artifactory
-        replace: ""
-      - match: /artifactory/(.*)
-        replace: ""
-      - match: /v2/(.*)
-        replace: ""
-    port: 8081
-    protocol: 1
+    - paths:
+        - match: /artifactory
+          replace: ""
+        - match: /artifactory/(.*)
+          replace: ""
+        - match: /v2/(.*)
+          replace: ""
+        - match: /.well-known/terraform.json
+          replace: ""
+      port: 8081
+      protocol: 1
 healthcheckendpoint:
-    path: /artifactory/api/system/ping?skipLicenseCheck=true
+    path: /artifactory/api/v1/system/readiness
     port: 8091
-nodeid: 71e9048eeaf5
+nodeid: cf274545263b
 serviceid: jfrt@01e6gkzhtba2gz14rj5jrj009s

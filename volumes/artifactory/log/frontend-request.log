@@ -1,122 +1,350 @@
-2021-05-05T12:51:01.872Z|4d8c542261a0072f|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|248|-|128.293|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:01.946Z|78c8e69b2bd716be|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|181.055|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.085Z|201e4fe236b13685|127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|530|-|335.874|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.274Z|32de29d523299008|127.0.0.1|anonymous|GET|/api/v1/system/onboarding|401|12|-|185.177|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.289Z|188eb031b5b748a1|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|401|-|199.037|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.306Z|7a328dad06ece816|127.0.0.1|anonymous|GET|/api/v1/system/featuresConfig|401|12|-|1.362|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.314Z|35f3e20ae4e19537|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|14.182|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.326Z|21c50cbb46b4bb08|127.0.0.1|anonymous|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|401|12|-|1.128|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.721Z|3843477a6bb5f842|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|43.778|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.729Z|6be785d4e79af1c2|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|248|-|58.032|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:02.759Z|62fce7af08b8b54b|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|72.523|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:03.319Z|616d0a2281a97c51|127.0.0.1|anonymous|GET|/api/v1/ui/treebrowser/repoOrder|401|12|-|1.239|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:03.358Z|5448270c4871ecda|127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|530|-|27.853|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:03.415Z|344e1e0b21fc5cd6|127.0.0.1|anonymous|GET|/api/v1/system/onboarding|401|12|-|3.569|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.352Z|20cb3414c61c12c3|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|446|54|284.028|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.474Z|116f625bbc9d72b7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|893|-|78.156|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.487Z|2a193c162d967247|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|239|-|96.396|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.566Z|4785b4bbd576f84f|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|10.557|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.572Z|73c24b8ca32a905d|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|893|-|21.896|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.585Z|515dfde841858bd1|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|502|-|33.146|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.642Z|4357caf4acd024b6|127.0.0.1|anonymous|GET|/api/v1/system/status/nodes|200|401|-|4.980|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.654Z|51942ffd9574e420|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|239|-|21.145|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.664Z|7766cc67d6e74587|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|23|-|1.991|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.700Z|5c708b7ff8b2a7f8|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|15.657|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.727Z|2ae7b875e26c9973|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|430|-|15.950|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.826Z|3477c2015be09b86|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|36.068|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:09.827Z|6baf9994d6e5f1fa|127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|609|242|42.460|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.147Z|12b979dcdf2adc0a|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|70|-|21.252|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.222Z|35c641192e58c395|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=true|200|-|152|91.821|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.297Z|7025f383c6c4eacf|127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|610|-|14.196|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.299Z|6194440b7cd0a0b2|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|21.341|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.300Z|2e02bae4dcd3c8a8|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|-|-|16.392|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.329Z|70f82809e78da132|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|310|103|23.801|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.361Z|19e14eee25367351|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|430|-|20.787|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.382Z|31f6442ef5f7e226|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|62|36|34.210|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.384Z|18b2b9c6aa7a46f0|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|16.115|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.463Z|46ec8cb4b3629dd2|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|471|69|33.992|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.475Z|596126355910478a|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=virtualRemoteRepository&repoKey=libs-release&path=|200|4|-|6.526|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:16.498Z|1c2edad87cbe0f4c|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|18.768|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:17.546Z|15259c1928f78468|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|453|94|6.906|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:17.609Z|27ac1717b003f502|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|42|5.529|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:17.667Z|3b938809e9b23a18|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|364|62|9.551|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:17.676Z|5e5d813598633487|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-release-local&path=|200|4|-|4.817|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:17.688Z|74d7aef0238d2126|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|8.287|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:19.704Z|28de968ec90ca56 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|44|124|56.455|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:20.337Z|1803f3ce610f44c5|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|292|126|13.620|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:21.540Z|500e0fd8afbcc0df|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|569|94|9.512|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:21.556Z|7a2a52c1b1641fa |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|71|45|7.880|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:21.615Z|3830fdf9258a8e1d|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|295|62|15.713|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:21.624Z|6a9344a5a167d1ef|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2F|200|4|-|5.272|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:21.640Z|204a5694cd56a61d|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|56|10.942|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:22.414Z|4265cb2922d312b8|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|295|62|11.521|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:22.426Z|7db386901f8e84ff|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2F|200|4|-|6.739|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:22.440Z|1ac270b5b051d347|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|56|7.465|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:22.879Z|7af0996678252334|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|305|111|15.860|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:24.064Z|27ed94864456229a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|599|124|10.249|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:25.461Z|7fda1fba006ab019|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|895|108|16.872|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:25.476Z|38b7f1c75289ea05|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|85|59|5.737|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:25.517Z|4bcd1cec8b683f7c|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|314|76|7.882|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:25.528Z|49399bf996e782bf|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2Fpanda%2F|200|4|-|4.748|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:25.538Z|2c62e15bea001e57|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|73|6.709|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:26.244Z|3a1967b5a8dccf71|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|314|76|7.559|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:26.261Z|647024192a69fc14|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2Fpanda%2F|200|4|-|12.468|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:26.279Z|4558d31e884fc404|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|73|13.479|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.170Z|460c7c7452c29ef1|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|931|120|7.195|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.185Z|3a75759d8b988242|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|97|71|5.437|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.225Z|6ddb4c1033aa96a5|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|336|88|7.875|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.233Z|4f8ed9d1994fcac0|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2Fpanda-application%2F|200|4|-|4.577|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.243Z|1eba8ca3da7b9976|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|97|5.855|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.947Z|7bbe7f344d97f492|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|336|88|6.867|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.960Z|4855d0bf1d3258a |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2Fpanda-application%2F|200|4|-|4.975|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:27.965Z|6cdaf60ca9932160|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|97|5.111|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:34.469Z|7926c9c402fe66e |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|23.874|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:36.084Z|524fea434f330220|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|670|128|13.340|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:39.531Z|7921f1b888324b29|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|123|8.200|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:39.548Z|7b600b9a77820b7c|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|100|74|10.072|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:39.602Z|5591fbcb0d780617|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|338|91|8.804|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:39.612Z|61d1b04af880621f|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2Fpanda%2F0.0.2-SNAPSHOT%2F|200|4|-|5.858|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:39.624Z|616755b01ad645af|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|97|7.405|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:42.302Z|2d7427e9428adf06|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|-|123|16.914|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:42.311Z|743756e89e938cb4|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|100|74|5.194|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.509Z|46d14a0c663a4021|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|93|259.041|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.551Z|7528b49f0f6c7161|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=true|200|-|169|10.147|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.580Z|1c394f1271162134|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|292|126|7.119|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.610Z|770d5717e478d481|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|305|111|8.565|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.631Z|30042235a632553 |127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|599|124|6.700|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.652Z|5c4f7bf550e689c0|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|44|128|7.125|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.669Z|2d43226e841631cf|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|895|108|5.465|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.691Z|4cc26129dd9992f1|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|85|59|15.475|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.737Z|6870c04474e5cd36|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|314|76|5.469|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.744Z|15e835cb4ff5ebe0|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2Fpanda%2F|200|4|-|4.394|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:46.754Z|5698cb464df47e83|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|73|5.401|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:49.242Z|13ffdd7ae5d19c98|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|694|152|6.438|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:54.859Z|2883770bbe22faa8|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|931|120|8.138|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:54.876Z|226f154d571456cb|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|97|71|5.235|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:54.924Z|62aee01ba50ed48 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|336|88|5.800|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:54.936Z|685fa08e4b7ccf7d|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2Fpanda-application%2F|200|4|-|5.045|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:54.945Z|2320c4bfdf81f1d6|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|57|97|4.942|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:55.553Z|1c70f123b0d52eda|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|931|120|7.095|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:55.564Z|5f5e93e9cd0a223 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|97|71|5.499|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:57.909Z|40374555e7d6a9e9|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/delete|200|41|90|62.401|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:57.932Z|3e9d76c4d5fa3256|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=true|200|-|169|6.055|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:57.951Z|201543f8d3da2c56|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|292|126|5.758|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:57.971Z|40be1f990c912da4|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|305|111|6.980|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:57.990Z|2e7f8179c3e3c284|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|309|124|6.983|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:58.010Z|2b9c3d26ade5fabd|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|727|102|5.778|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:58.022Z|4c934c20192263a2|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|79|53|5.401|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:58.072Z|1438cc4510620f46|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|308|70|6.325|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:58.080Z|77b9e114def8f449|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=folder&repoKey=libs-snapshot-local&path=pl%2Fpandait%2F|200|4|-|4.376|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:58.090Z|24f27a2e4f816323|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|69|5.426|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:51:59.443Z|f0a6077c15c9a65 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.646|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:05.632Z|5201ef9e37cf077c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|455|95|8.380|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:05.649Z|7a6c837c2c0feab7|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|69|43|5.143|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:05.696Z|1c75f9b705452958|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|369|63|6.155|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:05.707Z|3e50bbb595415eb5|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-snapshot-local&path=|200|4|-|6.475|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:05.716Z|46dfdca26ead86b2|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|70|4.651|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:06.446Z|5f130cd7d08df4b7|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|369|63|6.780|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:06.457Z|2cc3fe8b88c71f03|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-snapshot-local&path=|200|4|-|6.025|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:06.475Z|32de52291b247cfa|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|70|6.767|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:08.823Z|33c2c542785c96e |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|369|63|8.109|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:08.831Z|2438621220867193|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-snapshot-local&path=|200|4|-|4.693|Chrome|90.0.4430.93|Windows|10
-2021-05-05T12:52:08.842Z|2db375aa4cab43d8|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|70|6.317|Chrome|90.0.4430.93|Windows|10
+2022-03-07T11:08:47.052Z|11b46e15a20363a9|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|243|-|161.354|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:47.407Z|1152c16b9a12625e|127.0.0.1|anonymous|GET|/api/v1/distribution/webapp/js/app.js|200|-|-|43.739|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:47.472Z|7252c9f18ea23e25|127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|510|-|417.787|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:48.103Z|64f57a17b42b29f2|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|18.797|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:48.166Z|4d9067d68c13cec9|127.0.0.1|anonymous|POST|/api/v1/ui/auth/logout|200|0|0|24.435|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:48.942Z|69576de795f070a6|127.0.0.1|anonymous|GET|/api/v1/ui/auth/screen/footer|200|243|-|48.722|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:48.948Z|4655c416e42fe166|127.0.0.1|anonymous|GET|/api/v1/ui/auth/current|200|510|-|53.905|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:49.094Z|6f68fab6537dc4fa|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|15.189|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:49.105Z|5ea6ca2c89754f45|127.0.0.1|anonymous|GET|/api/v1/ui/oauth2/loginRequestPlatform|404|74|-|22.976|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:55.801Z|1ce7654806b57460|127.0.0.1|anonymous|POST|/api/v1/ui/auth/login?_spring_security_remember_me=false|200|426|54|212.492|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:55.872Z|a4ecd9d9521e2bb |127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|14.149|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:55.905Z|423ad460fb06eb48|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|3.471|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:55.913Z|3772041e856793c1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|914|-|66.619|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:55.927Z|1fbc7c90a7438b37|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/footer|200|914|-|10.589|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.036Z|5d93d0afdebbbc66|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|38.798|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.078Z|185c4995c5a5acd3|127.0.0.1|anonymous|POST|/api/v1/ui/auth/loginRelatedData|200|45|17|6.652|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.095Z|602d71a90147efdd|127.0.0.1|admin|GET|/api/v1/system/status/nodes|200|675|-|12.807|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.146Z|325c8a558c28a236|127.0.0.1|admin|GET|/api/v1/system/featuresConfig|200|23|-|4.796|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.175Z|5652717e813333d |127.0.0.1|admin|GET|/api/v1/projects|200|278|-|23.907|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.215Z|193fdea30556f6a2|127.0.0.1|admin|GET|/api/v1/access/environments|200|14|-|1.588|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.287Z|7049d60ff7055688|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|67.084|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.343Z|7ac11bec23720f37|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|430|-|21.429|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:08:56.412Z|134bf3f393528af2|127.0.0.1|admin|GET|/api/v1/system/onboarding|200|239|-|64.508|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:01.598Z|5f0817e999eb3c77|127.0.0.1|admin|GET|/api/v1/projects|200|278|-|8.179|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:01.662Z|230ceb2df90b5286|127.0.0.1|admin|POST|/api/v1/system/setUserCustomFields|200|-|701|42.624|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:01.664Z|40447b28174ac721|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|33.868|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:01.688Z|36923ba06dcade7 |127.0.0.1|admin|POST|/api/v1/system/setUserCustomFields|200|-|701|63.940|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:01.713Z|4f192a747cce7597|127.0.0.1|admin|POST|/api/v1/system/setUserCustomFields|200|-|700|97.587|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:01.761Z|1baafdf3f9b3d398|127.0.0.1|admin|GET|/api/v1/projects/limit|200|52|-|176.576|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:02.933Z|27ec1e17bf0a06f2|127.0.0.1|admin|POST|/api/v1/system/setUserCustomFields|200|-|702|12.038|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:03.244Z|6675cd93136ce9c5|127.0.0.1|admin|POST|/api/v1/system/setUserCustomFields|200|-|702|15.745|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:04.726Z|7a5c16b91ecb32e6|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info?projectKey=|200|637|-|48.003|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:04.727Z|6973c28cb7666492|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info?projectKey=|200|282|-|42.523|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:04.729Z|68e4a7588957b8a |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info?projectKey=|200|538|-|41.512|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:04.730Z|7928903382b33400|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info?projectKey=|200|2|-|28.405|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:04.780Z|a35350e28dfdbc1 |127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|36.999|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:21.002Z|123c5cb35d38aca8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|56.400|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:21.036Z|46a3940dafb57de4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|2.264|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:21.046Z|7379e120564debd6|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.054|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:46.516Z|cb9ca40be5751a1 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.122|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:46.523Z|4fd400fdcc6fd80c|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.230|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:09:46.544Z|3b8b6dd24d62c428|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|11.552|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:10:11.547Z|f701c09f6c25312 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|62.077|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:10:11.553Z|7a3c76301226bcd3|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.708|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:10:11.562Z|16cb562a2518dd46|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.128|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:10:36.522Z|4fe7899817277826|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|29.311|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:10:36.531Z|1b56d7be05fbcea7|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.585|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:10:36.548Z|fe189be2e1941ac |127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|11.358|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:01.553Z|56e3550bd647d4da|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.238|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:01.560Z|3fd7933acd019e37|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.064|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:01.577Z|5fd850b888226324|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|12.077|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:26.575Z|78d377664c3a70c6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|54.143|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:26.580Z|587d21b4c8957aa4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.005|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:26.590Z|10dcd4840990521 |127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.549|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:51.555Z|c6b52757572f52f |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|27.343|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:51.563Z|5bbc08ca8f953fda|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.243|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:11:51.573Z|6cccd865a80e58bd|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.844|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:12:16.587Z|17f3c333b68d0ff |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.220|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:12:16.593Z|39350f14d2936aa1|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.866|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:12:16.607Z|6d4a8a666b94fc59|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.721|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:12:41.606Z|ada4f221be75f1  |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.644|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:12:41.614Z|5c4e9e9d155a6ac3|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|2.393|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:12:41.627Z|3fdcb6a1a5b16829|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|7.452|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:06.622Z|1982533529cb7c2c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|55.581|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:06.631Z|4e4164bb741a8a24|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|2.840|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:06.644Z|31919359ef89e7cc|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.481|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:31.600Z|1299880d13a52b07|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.411|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:31.605Z|3d125b853741dd48|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.990|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:31.615Z|2aa4531033987d51|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.685|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:56.616Z|73c526a8071a2dff|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.926|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:56.622Z|774caad1b833198f|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.221|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:13:56.640Z|53cd90f9e11af94d|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|13.775|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:14:21.631Z|3481aec6b0231413|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.814|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:14:21.637Z|2affe67571da68fb|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.155|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:14:21.650Z|2190f40c1c08aef6|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|8.493|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:15:09.667Z|244b8f8b9fc46f17|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.592|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:15:09.674Z|43da4922b85d3fa5|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.408|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:15:09.684Z|5c0b7b87e4ea61cd|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.271|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:16:09.708Z|5eef3e9cce926811|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.179|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:16:09.716Z|3202bbb5555f8835|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|3.771|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:16:09.729Z|28c6d1d3fffc36ca|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|8.374|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:16:57.533Z|c7bfc508f36b398 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|26.586|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:16:57.538Z|66f6832f4d934271|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.190|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:16:57.549Z|4f4d6569df5ac127|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.241|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:17:57.593Z|37fcfce864c8eb60|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.727|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:17:57.605Z|4cd7d62b3abf5dd8|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.204|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:17:57.615Z|6fdc2588bfb2cc8e|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.935|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:18:57.608Z|2ba6cbbd259a6fb0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.434|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:18:57.616Z|74868bd706c5de72|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.954|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:18:57.628Z|6fed20662a9171a3|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|8.335|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:19:57.655Z|14db8a99c30fb9a6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.154|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:19:57.660Z|6b9e9a84bfc8a56c|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.010|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:19:57.673Z|793a32905ecaa2bc|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.160|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:20:57.670Z|7c0660bd30b9d12c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|36.058|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:20:57.677Z|503d3ffca73b7bbd|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.927|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:20:57.688Z|7711915b5078431b|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.728|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:05.039Z|99f43fd3783bd82 |127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|110.675|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:10.812Z|2f2d79c3e6926671|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|25.138|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:10.825Z|51ef968b20500c57|127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|2|-|41.666|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:10.831Z|676cefc1b41ca495|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|-|-|49.446|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:10.917Z|2fde73571acdc001|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/libs-release-local|200|812|-|129.314|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:10.944Z|423ee17edf48a8c |127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|804|-|21.954|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:11.132Z|594a370943d3af37|127.0.0.1|admin|GET|/api/v1/ui/crontime?cron=&isReplication=true|400|23|-|43.592|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:13.075Z|14754fffe96f9589|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/validatereponame?repoType=local&repoKey=libs-release-local|200|64|-|25.982|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:13.644Z|289e75892c26341a|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/validatereponame?repoType=local&repoKey=libs-release-local|200|64|-|23.540|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:14.108Z|1a4c5e028e5cd970|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.365|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:14.113Z|4715f8003af174bf|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.929|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:14.124Z|37662b13ad59239f|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.275|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:15.269Z|1529f175a30b3c10|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info?projectKey=|200|2|-|16.826|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:15.275Z|44fdf613bfb0e00 |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info?projectKey=|200|637|-|35.040|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:15.278Z|59ebc1208ae7960e|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info?projectKey=|200|282|-|36.224|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:15.279Z|35c3caf748b69458|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info?projectKey=|200|538|-|26.384|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:21.522Z|9e400a99d251992 |127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|35.196|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:21.524Z|e66c14fe5f067d1 |127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|2|-|55.331|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:21.527Z|669542b586f15749|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|-|-|55.446|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:21.548Z|33d5ec6f7542556d|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/jcenter|200|-|-|61.886|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:23.008Z|1284fda964f1eadc|127.0.0.1|admin|POST|/api/v1/ui/admin/repositories/discoversmartrepocapabilities|200|35|1457|1453.070|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:23.092Z|4d056e8bd803380a|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|804|-|26.352|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:24.473Z|46e128705c25e45e|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info?projectKey=|200|2|-|23.946|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:24.474Z|82d5df077f04436 |127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info?projectKey=|200|538|-|35.445|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:24.476Z|26a23cc80b80d72c|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info?projectKey=|200|282|-|38.496|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:24.479Z|114f6aac98daeec6|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info?projectKey=|200|637|-|40.107|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:27.213Z|3ddb9e61d7ec88b4|127.0.0.1|admin|GET|/api/v1/ui/propertysets?isRepoForm=true|200|2|-|17.797|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:27.214Z|5ed553b4190945ad|127.0.0.1|admin|GET|/api/v1/ui/global/replications/config|200|61|-|12.412|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:27.217Z|1cc88bd3426425e7|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/availablechoices|200|-|-|21.815|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:27.268Z|54687cf8080a5325|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/generic-local|200|410|-|67.091|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:27.280Z|74e83d91a582b139|127.0.0.1|admin|GET|/api/v1/ui/generalConfig|200|804|-|7.562|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:27.374Z|7b82da3630d961e9|127.0.0.1|admin|GET|/api/v1/ui/crontime?cron=&isReplication=true|400|23|-|11.841|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:29.107Z|595eaae529743229|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/virtual/info?projectKey=|200|538|-|41.043|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:29.108Z|135edc18ba654b06|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/remote/info?projectKey=|200|282|-|53.187|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:29.109Z|7ec9f0cf81861aec|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/local/info?projectKey=|200|637|-|55.140|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:29.124Z|2449f723ed5fb3dd|127.0.0.1|admin|GET|/api/v1/ui/admin/repositories/distribution/info?projectKey=|200|2|-|54.819|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:30.097Z|37be30859bb45ce4|127.0.0.1|admin|GET|/api/v1/projects|200|278|-|29.907|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:30.104Z|26ddec5c466722b2|127.0.0.1|admin|GET|/api/v1/projects/limit|200|52|-|37.554|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:30.114Z|361c81bfe00faaa0|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|8.119|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:35.667Z|335e50e20fbeff7d|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|42.221|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:35.770Z|93d90cbc1b7134d |127.0.0.1|admin|POST|/api/v1/mds/packages?jfLoader=true|200|84|532|135.389|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:36.712Z|cc2a48adc4e41d8 |127.0.0.1|admin|POST|/api/v1/global-search/builds?jfLoader=true|200|13|105|117.448|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:37.788Z|539bb44b269a26db|127.0.0.1|admin|GET|/api/v1/ui/home/widget/artifactCount|200|69|-|12.902|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:37.891Z|889b860cf07ad4e |127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=true|200|-|168|118.198|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:37.929Z|72d7afd731eb928 |127.0.0.1|admin|GET|/api/v1/ui/repodata?search=true|200|610|-|14.383|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:37.931Z|29ea831782fd7533|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/pkg/availablePackages|200|-|-|17.037|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:37.944Z|36d962997d011bd8|127.0.0.1|admin|GET|/api/v1/ui/repodata?deploy=true|200|-|-|26.521|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:37.966Z|6223718eb3d6bb7a|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|310|119|19.805|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:38.000Z|42bf6cf12f6b3344|127.0.0.1|admin|GET|/api/v1/ui/repodata?packageSearch=true|200|430|-|13.691|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:38.039Z|2557b0eeff5948bf|127.0.0.1|admin|GET|/api/v1/ui/artifactsearch/property/keyvalue|200|2|-|24.689|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:38.061Z|752dfc84da13b13 |127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|62|36|58.114|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:38.294Z|10e42e8a68dd7667|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|471|69|189.595|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:38.334Z|7ff4c8dd258556d6|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=virtualRemoteRepository&repoKey=libs-release&path=|200|4|-|32.110|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:38.387Z|688ad31453533099|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|46.783|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:39.144Z|2438ea5316d3c5c5|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.084|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:39.165Z|67ca5c9125b284ce|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|5.255|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:39.178Z|4a20bfd80a757483|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|7.102|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:21:44.801Z|5e87576de242cf3b|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|-|132|4282.583|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:04.173Z|2d9875b582c2394e|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.641|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:04.183Z|682ef04bdccfb72f|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.966|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:04.193Z|41d7944827f3d01d|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.450|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:29.190Z|1b365339ab1d926f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|51.863|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:29.205Z|3b6e4c703e0b2654|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.975|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:29.217Z|52cfb6ed0bd3eaca|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|7.747|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:54.736Z|48f6aa1906ee0049|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.214|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:54.744Z|2f3d95a3173c226c|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.346|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:22:54.757Z|38fa82b24944c083|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|9.244|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:23:19.751Z|64451ce6b4320227|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.456|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:23:19.766Z|3ecbf03834416664|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|2.248|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:23:19.782Z|22d854ae8a81ee7a|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.077|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:23:44.762Z|1fc6c3bfe99bf239|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.748|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:23:44.774Z|76272f7f6b6a77c2|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.833|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:23:44.786Z|4aba2e19ea48dcbe|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.838|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:09.777Z|4bab37ee1e88b0c2|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|42.074|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:09.792Z|476619d83dcfd16e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.237|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:09.804Z|2747085b63f82d19|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.477|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:34.781Z|7ccbd70e2bc7467b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|35.260|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:34.796Z|7ada5cce69aff6a1|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.708|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:34.805Z|260a4a2def2993cf|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.802|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:59.808Z|7be2888215503ea7|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.890|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:59.824Z|a7466028f45033c |127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.821|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:24:59.833Z|2a9cf7d66e03fc05|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.319|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:25:24.809Z|3a0be0149560239a|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|37.172|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:25:24.830Z|3f9c917618f11755|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.893|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:25:24.838Z|1a3c0ab088e2c463|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.327|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:25:49.835Z|516c993009d055a0|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.034|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:25:49.852Z|5cc8816317ed3a2b|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.352|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:25:49.869Z|441e0dab47a1c9f1|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|8.717|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:26:14.829Z|3d11d1a54dfb18db|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|30.493|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:26:14.842Z|31efe6d097450feb|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.266|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:26:14.853Z|61f1f4125d081b38|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.014|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:26:39.823Z|6f2eac95426aec7c|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|14.991|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:26:39.833Z|5aa9f7a71a73c564|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.913|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:26:39.843Z|567830c6a22ddbb1|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.552|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:04.863Z|3678adfc49e5ca2 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.395|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:04.881Z|1ac4814d718e655b|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.434|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:04.893Z|7e70a21189d1828e|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.951|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:29.847Z|47d05bf1c83d4103|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.079|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:29.865Z|218ebad0110cbc5e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|5.718|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:29.879Z|541bb751e1a5079a|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|7.876|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:57.894Z|378fd073732612e4|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.262|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:57.907Z|234fae6b0fd021cd|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.044|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:27:57.917Z|76da3ec59cc55c60|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.929|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:28:57.928Z|4bd90a376f73a9e8|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|47.972|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:28:57.938Z|7561faa09ee579fc|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.906|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:28:57.946Z|50ed0d8c8b4daecd|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.550|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:29:57.958Z|e3820608ae41715 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.223|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:29:57.968Z|5d48e33a6ae6c185|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.796|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:29:57.976Z|6f9c4446a75f95aa|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.452|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:02.024Z|140174c476b381df|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|11.936|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:02.032Z|2c7650c593ce9ec3|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.246|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:02.046Z|793c8dc19609c7bf|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.928|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:02.787Z|9851d20a5ba4b05 |127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|64.333|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:24.425Z|711c5235725e00dc|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|48.855|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:24.439Z|1b3a81922d3c32fa|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.107|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:24.449Z|600d6ec663f2d1c7|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.125|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:49.431Z|8215d4c17eb111c |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.477|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:49.448Z|717336df77abe87e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.051|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:30:49.457Z|4536a94c2673de9 |127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.710|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:31:14.450Z|34dbd3d9c5b33da |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|52.124|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:31:14.470Z|356190a8e281baba|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.492|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:31:14.482Z|171948c1cddb40a4|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.082|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:31:39.425Z|24f9ccc2e25aa660|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.781|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:31:39.439Z|645696130d71445a|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.530|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:31:39.447Z|4974623ffb934142|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|3.943|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:31:43.641Z|405db13639373591|127.0.0.1|admin|GET|/api/v1/ui/auth/current|200|482|-|35.595|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:04.461Z|66ce69ad7d1cb0b9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.670|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:04.476Z|71b3b6e0cbb82684|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|7.208|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:04.486Z|113f0959376c759a|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.996|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:05.986Z|34cdc20338788cdf|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|455|111|8.963|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:06.049Z|7f470e0c1819b370|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|69|43|6.451|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:06.170Z|34ab055566548f32|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|369|63|68.214|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:06.181Z|6e8a9c945266826b|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-snapshot-local&path=|200|4|-|5.633|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:06.192Z|64e9f9d1fca5ceaa|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|70|6.384|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:09.496Z|7733e5bd9546869f|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|453|110|9.538|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:09.563Z|74eada0a6cb79211|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|42|8.168|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:09.642Z|5c95cc32a3cc903 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|364|62|11.390|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:09.656Z|416ac87e9b02cacf|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-release-local&path=|200|4|-|6.846|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:09.670Z|6892283271458307|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|7.778|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:13.117Z|53cd8d2ad4fbfe82|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=&repoKey=libs-release-local&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|78.080|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:13.672Z|70bcfb2fdb8bb56b|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?repoKey=libs-release-local&path=|200|4|-|11.779|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:13.697Z|22992d0c2aea295 |127.0.0.1|admin|GET|/api/v1/ui/repopropertyset?repoKey=libs-release-local&path=|200|2|-|25.917|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:13.725Z|797898515c7a01e9|127.0.0.1|admin|GET|/api/v1/ui/artifactproperties?repoKey=libs-release-local&path=|200|25|-|58.694|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:14.842Z|bbf1efa38cf1d2e |127.0.0.1|admin|GET|/api/v1/ui/artifactwatches?path=&repoKey=libs-release-local|200|2|-|17.110|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:15.508Z|3dd8a91dcfff3997|127.0.0.1|admin|GET|/api/v1/ui/artifactpermissions?path=&repoKey=libs-release-local&pageNum=1&numOfRows=25&direction=asc&orderBy=principal|200|890|-|27.077|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:18.860Z|6f459ee1d2e00b46|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|364|62|5.997|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:18.869Z|18075e89a37d31b0|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-release-local&path=|200|4|-|5.204|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:18.887Z|7179c1310940958d|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|12.332|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:21.527Z|5f3a151a25fea047|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|445|107|21.377|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:21.541Z|4a31e25139ef509b|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|63|37|5.712|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:21.593Z|2b13e658f65ddacc|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|261|57|6.568|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:21.604Z|4250270deaf0ddb8|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=generic-local&path=|200|4|-|5.910|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:21.614Z|5eb7310d2eb384f9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|58|5.403|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:24.037Z|3d2ce95f57b79f02|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|261|57|7.661|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:24.052Z|2014e2347ac9757 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=generic-local&path=|200|4|-|6.948|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:24.064Z|8bf28cb5a321ccf |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|58|6.953|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:25.382Z|417c30dc25e1e5c3|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|465|118|16.098|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:25.400Z|61a1d9d1caa143f0|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|72|46|6.076|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:25.454Z|5648d6e89061d43d|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|328|66|9.928|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:25.464Z|18d281150988129 |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=artifactory-build-info&path=|200|4|-|5.431|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:25.477Z|56ba9e154d3496d |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|76|6.646|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:27.228Z|24de2f2f9c348171|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|312|120|10.695|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:27.259Z|2a9eeeeaf3fa44af|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|63|37|12.579|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:27.301Z|3f881ed5bf68979a|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|476|70|7.083|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:27.310Z|329f41fff8fad9c2|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=virtualRemoteRepository&repoKey=libs-snapshot&path=|200|4|-|4.922|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:27.324Z|20ed8f58083e43fd|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|58|6.247|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:28.403Z|1ae6e32768934a81|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|310|119|5.894|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:28.416Z|45de24d9496e445d|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|62|36|4.299|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:28.454Z|5a034360d6728e7 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|471|69|7.451|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:28.465Z|5b2235c5ff83fdc8|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=virtualRemoteRepository&repoKey=libs-release&path=|200|4|-|5.231|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:28.481Z|6aa6896f6e80a4fb|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|56|10.338|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:29.452Z|162fe4b2077179a1|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.743|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:29.470Z|52945c19c08672c4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|2.982|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:29.493Z|3e612278112419d8|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|10.521|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:30.363Z|2fdf8675ea08fe5c|127.0.0.1|admin|POST|/api/v1/ui/treebrowser?compacted=false|200|18|130|34.378|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:31.781Z|2f9957269d35d114|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|445|107|6.446|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:31.809Z|7c12c674e66c4c2e|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|63|37|5.499|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:31.858Z|def1d6e7ef5fd86 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|261|57|7.237|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:31.867Z|3683dcad10cfb7b |127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=generic-local&path=|200|4|-|4.322|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:31.876Z|63cec8e2e6f22e6 |127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|58|5.315|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:32.687Z|5e72cbaf84df7dac|127.0.0.1|admin|POST|/api/v1/ui/treebrowser/tabsAndActions|200|453|110|15.478|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:32.715Z|52e21193eb12df6b|127.0.0.1|admin|POST|/api/v1/ui/artifactactions/download|200|68|42|13.439|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:32.779Z|214def6b09799ea9|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral|200|364|62|11.619|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:32.798Z|3daad5843032ce20|127.0.0.1|admin|GET|/api/v1/ui/auth/canAnnotate?type=repository&repoKey=libs-release-local&path=|200|4|-|9.990|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:32.815Z|1c72e7abd17e915d|127.0.0.1|admin|POST|/api/v1/ui/artifactgeneral/artifactsCount|200|56|68|8.158|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:55.039Z|41d50bc28470b514|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.127|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:55.062Z|6cc817ee02695ae4|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.476|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:32:55.072Z|1ecbf4716f0e3a71|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.007|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:33:20.053Z|7f00e7322623f0fd|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|49.648|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:33:20.066Z|7e53e07b62e2266e|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.101|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:33:20.077Z|38feac9e4abbf8b3|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.177|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:33:45.046Z|18a742564bb3a123|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|34.421|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:33:45.062Z|486f13d364941361|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.129|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:33:45.073Z|c53562d5c7294c  |127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.729|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:34:10.039Z|11fa0b8a4f830aeb|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|18.873|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:34:10.051Z|1b233cbf8e697c15|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.613|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:34:10.059Z|3ad7c26d35f97464|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.483|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:34:35.078Z|9c28017705249c6 |127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.421|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:34:35.089Z|5e59d58f9e499b0a|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.877|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:34:35.101Z|7532b012339abd38|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|7.001|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:00.089Z|2f1e1d35cc040901|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.523|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:00.110Z|274578aa1fd534fe|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.802|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:00.127Z|6d47f6925812815d|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|9.699|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:25.109Z|2818b3bc26a82f46|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|48.567|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:25.128Z|764900ba8702ffd5|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.331|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:25.142Z|320096ce02b78f0d|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|7.961|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:50.117Z|474f08c83b7999f6|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|43.589|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:50.133Z|7a310b6cc03acf07|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.304|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:35:50.144Z|22ab1b91dc5efd4c|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.464|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:36:15.091Z|2b015ca9bb9800e4|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|12.615|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:36:15.102Z|251fa6a8196eef3b|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.834|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:36:15.110Z|59b06c80d935904b|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.459|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:36:40.139Z|6435de6e5b170c57|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|41.701|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:36:40.172Z|12075a5364079b71|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.605|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:36:40.189Z|16cd53c7ac69f74f|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|10.655|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:05.147Z|5cbb221a5017fe1f|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|39.655|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:05.160Z|7797b209ff0ab6f9|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.809|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:05.169Z|5ce675e242693b15|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.177|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:30.166Z|5b6fddc4bd1615c9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.228|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:30.185Z|24122159e4db6d45|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.409|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:30.197Z|4ecdb67f015e715d|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.930|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:55.142Z|12ec4d29b1335e37|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|15.520|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:55.153Z|6959cf40c250e741|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.040|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:37:55.162Z|5310054a70d6d9b8|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.774|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:38:58.217Z|661cfa78d8b37050|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|55.232|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:38:58.227Z|720c6e4d3eca5942|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.752|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:38:58.235Z|7510ea1cfabcb165|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.170|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:39:58.232Z|1f74b81a04b16216|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|40.751|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:39:58.245Z|7d4a82994da6fe  |127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.010|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:39:58.260Z|670ae948a34750b2|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|10.719|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:40:58.269Z|69efc6aff8406766|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|44.851|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:40:58.286Z|2555021bf8c635c8|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|1.253|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:40:58.296Z|5cd1fee8895ef0f8|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|6.012|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:41:58.269Z|17a79261f841c268|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|20.509|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:41:58.280Z|573a72f8078e09f6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.788|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:41:58.288Z|56ac49d08d3db28d|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.102|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:42:58.325Z|371f843e7b1c0f36|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.377|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:42:58.337Z|ae4894cbd8cda30 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|2.042|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:42:58.346Z|1952cde42da99050|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.548|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:43:58.357Z|1f38e7e483e7edff|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|46.636|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:43:58.370Z|7cb2171892db2fbb|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.906|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:43:58.379Z|299e64826b24badc|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.964|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:44:58.365Z|5b5570da0824f2ab|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|31.189|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:44:58.383Z|7a9a1a3f6dc999c |127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|2.270|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:44:58.393Z|64c568ab2aec8bdb|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.634|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:45:58.385Z|3872037a76538ee9|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|23.438|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:45:58.397Z|2bdbaaa4e5a74b7 |127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.924|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:45:58.406Z|2cb5d2b9a490e8ca|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|4.740|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:46:58.416Z|22c4c0169f10b263|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|23.630|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:46:58.428Z|34d4b4473b2c89c6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.937|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:46:58.443Z|138ca034b8b6a019|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|10.498|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:47:58.444Z|2c9987329a3d779b|127.0.0.1|admin|GET|/api/v1/ui/auth/screen/globalState|200|39|-|19.799|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:47:58.455Z|6047d807676ab2f6|127.0.0.1|anonymous|GET|/api/v1/system/version|200|20|-|0.891|Chrome|98.0.4758.102|Linux|x86_64
+2022-03-07T11:47:58.463Z|3692bc59254c5387|127.0.0.1|admin|GET|/api/v1/ui/storagesummary/projects|200|3|-|5.081|Chrome|98.0.4758.102|Linux|x86_64

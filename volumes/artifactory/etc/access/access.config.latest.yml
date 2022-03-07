@@ -16,4 +16,8 @@ federation:
       to: "jfrt@01e6gkzhtba2gz14rj5jrj009s"
     - from: "jffe@*"
       to: "jffe@000"
+    - from: "jfob@*"
+      to: "jfob@01e6gkyy91wa2f00f3fdsf0gme"
+    - from: "jfint@*"
+      to: "jfint@01e6gkyy91wa2f00f3fdsf0gme"
 schema-version: 2

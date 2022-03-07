@@ -2158,3 +2158,31 @@ Node ID: '97de886ddbba'
 2021-05-05T12:31:04.000Z [shell] [38;5;69m[INFO ][0m [] [systemYamlHelper.sh:515       ] [main] - Resolved JF_PRODUCT_HOME (/opt/jfrog/artifactory) from environment variable
 2021-05-05T12:31:04.000Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:807      ] [main] - Resolved ${shared.tomcat.workDir||/opt/jfrog/artifactory/var/work/artifactory/tomcat} to default value : /opt/jfrog/artifactory/var/work/artifactory/tomcat
 2021-05-05T12:31:05.000Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1183       ] [main] - Redirection is set to false. Skipping catalina log redirection
+2022-03-07T11:01:04.407Z [shell] [38;5;69m[INFO ][0m [] [systemYamlHelper.sh:582       ] [main] - Resolved .shared.extraJavaOpts (__sensitive_key_hidden___) from /opt/jfrog/artifactory/var/etc/system.yaml
+2022-03-07T11:01:04.489Z [shell] [38;5;69m[INFO ][0m [] [systemYamlHelper.sh:582       ] [main] - Resolved .shared.extraJavaOpts (__sensitive_key_hidden___) from /opt/jfrog/artifactory/var/etc/system.yaml
+2022-03-07T11:01:05.204Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1574       ] [main] - Checking open files and processes limits
+2022-03-07T11:01:05.218Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1577       ] [main] - Current max open files is 1048576
+2022-03-07T11:01:05.234Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1588       ] [main] - Current max open processes is unlimited
+2022-03-07T11:01:05.267Z [shell] [1;31m[WARN ][0m [] [installerCommon.sh:776        ] [main] - System.yaml validation failed
+2022-03-07T11:01:05.316Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1655       ] [main] - Testing directory /opt/jfrog/artifactory/var has read/write permissions for user id 1030
+2022-03-07T11:01:05.334Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1670       ] [main] - Permissions for /opt/jfrog/artifactory/var are good
+2022-03-07T11:01:05.859Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:3436       ] [main] - Setting JF_SHARED_NODE_ID to cf274545263b
+2022-03-07T11:01:05.967Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:3436       ] [main] - Setting JF_SHARED_NODE_IP to 172.18.0.4
+2022-03-07T11:01:06.009Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:3436       ] [main] - Setting JF_SHARED_NODE_NAME to cf274545263b
+2022-03-07T11:01:06.191Z [shell] [38;5;69m[INFO ][0m [] [systemYamlHelper.sh:582       ] [main] - Resolved .shared.extraJavaOpts (__sensitive_key_hidden___) from /opt/jfrog/artifactory/var/etc/system.yaml
+2022-03-07T11:01:06.210Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2767       ] [main] - Removed duplicate java argument -Xms512m
+2022-03-07T11:01:06.224Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:2767       ] [main] - Removed duplicate java argument -Xmx2g
+2022-03-07T11:01:06.707Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:178      ] [main] - Saving /opt/jfrog/artifactory/app/artifactory/tomcat/conf/server.xml as /opt/jfrog/artifactory/app/artifactory/tomcat/conf/server.xml.orig
+2022-03-07T11:01:06.734Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:186      ] [main] - Using Tomcat template to generate : /opt/jfrog/artifactory/app/artifactory/tomcat/conf/server.xml
+2022-03-07T11:01:06.803Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${artifactory.port||8081} to default value : 8081
+2022-03-07T11:01:06.873Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${artifactory.tomcat.connector.sendReasonPhrase||false} to default value : false
+2022-03-07T11:01:06.939Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${artifactory.tomcat.connector.maxThreads||200} to default value : 200
+2022-03-07T11:01:07.055Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${artifactory.tomcat.maintenanceConnector.port||8091} to default value : 8091
+2022-03-07T11:01:07.095Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${artifactory.tomcat.maintenanceConnector.maxThreads||5} to default value : 5
+2022-03-07T11:01:07.190Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${artifactory.tomcat.maintenanceConnector.acceptCount||5} to default value : 5
+2022-03-07T11:01:07.332Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${access.http.port||8040} to default value : 8040
+2022-03-07T11:01:07.438Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${access.tomcat.connector.sendReasonPhrase||false} to default value : false
+2022-03-07T11:01:07.540Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${access.tomcat.connector.maxThreads||50} to default value : 50
+2022-03-07T11:01:07.717Z [shell] [38;5;69m[INFO ][0m [] [systemYamlHelper.sh:582       ] [main] - Resolved JF_PRODUCT_HOME (/opt/jfrog/artifactory) from environment variable
+2022-03-07T11:01:07.855Z [shell] [38;5;69m[INFO ][0m [] [artifactoryCommon.sh:1009     ] [main] - Resolved ${shared.tomcat.workDir||/opt/jfrog/artifactory/var/work/artifactory/tomcat} to default value : /opt/jfrog/artifactory/var/work/artifactory/tomcat
+2022-03-07T11:01:10.653Z [shell] [38;5;69m[INFO ][0m [] [installerCommon.sh:1250       ] [main] - Redirection is set to false. Skipping catalina log redirection

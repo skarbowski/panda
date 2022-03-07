@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-03-07 11:24:12.478 UTC</timestamp>
+  <md5sum>d814e65c266232d86f7620b61e7f5d41</md5sum>
+  <fileName>Credential id=PandaGitHub name=PandaAcademy/****** (GitHub for PandaAcademy)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.18">
+      <timestamp>1646652252433</timestamp>
+      <itemFullName>PandaAppPipeline</itemFullName>
+      <timestamp0>1646652252433</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

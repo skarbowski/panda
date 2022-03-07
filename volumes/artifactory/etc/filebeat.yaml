@@ -4,22 +4,34 @@ filebeat.inputs:
   - type: log
     enabled: ${METRICS_LOG_ENABLED:false}
     paths:
+      - ${ARTIFACTORY_HOME}/var/log/observability-metrics.log
+    include_lines: ['^sys_']
+    processors:
+      - drop_event:
+          when.regexp.message: "^#.*"
+      - dissect:
+          tokenizer: "%{metric_name} %{metric_value} %{timestamp}"
+          target_prefix: ""
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "system_metrics"
+      micro_service: "jfrt"
+    fields_under_root: true
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
       - ${ARTIFACTORY_HOME}/var/log/artifactory-metrics.log
       - ${ARTIFACTORY_HOME}/var/log/access-metrics.log
       - ${ARTIFACTORY_HOME}/var/log/event-metrics.log
       - ${ARTIFACTORY_HOME}/var/log/metadata-metrics.log
       - ${ARTIFACTORY_HOME}/var/log/router-metrics.log
-    include_lines: ['^jfrt_db_connections', '^jfrt_runtime_heap', '^jfrt_http_connections','^jfrt_slow_queries','^sys_cpu','^sys_memory','^app_disk']
+    include_lines: ['^jfrt_db_connections', '^jfrt_runtime_heap', '^jfrt_http_connections','^jfrt_slow_queries','^app_disk', '^jfac_db_connections', '^jfac_slow_queries', '^jfac_runtime_heap', '^jfmd_db_connections', '^app_io_counters','^go_memstats_heap']
     processors:
       - drop_event:
           when.regexp.message: "^#.*"
       - add_fields:
-          when.contains.message: "sys_"
-          target: ''
-          fields:
-            record_type: "system_metrics"
-      - add_fields:
-          when.contains.message: "jfrt_slow_queries"
+          when.contains.message: "slow_queries"
           target: ''
           fields:
             record_type: "slow_queries"
@@ -34,6 +46,11 @@ filebeat.inputs:
           fields:
             record_type: "jfrt_db_connections"
       - add_fields:
+          when.contains.message: "jfmd_db_connections"
+          target: ''
+          fields:
+            record_type: "jfmd_db_connections"
+      - add_fields:
           when.contains.message: "jfrt_runtime_heap"
           target: ''
           fields:
@@ -44,10 +61,15 @@ filebeat.inputs:
           fields:
             record_type: "jfrt_http_connections"
       - add_fields:
-          when.contains.message: "sys_cpu_totaltime"
+          when.contains.message: "app_io_counters"
           target: ''
           fields:
             record_type: "system_metrics"
+      - add_fields:
+          when.contains.message: "go_memstats_heap"
+          target: ''
+          fields:
+            record_type: "jfmd_runtime_heap"
       - add_fields:
           when.contains.message: "app_disk"
           target: ''
@@ -78,6 +100,16 @@ filebeat.inputs:
           target: ''
           fields:
             micro_service: "jfrt"
+      - add_fields:
+          when.contains.message: "jfac_db_connections"
+          target: ''
+          fields:
+            record_type: "jfac_db_connections"
+      - add_fields:
+          when.contains.message: "jfac_runtime_heap"
+          target: ''
+          fields:
+            record_type: "jfac_runtime_heap"
       - dissect:
           when:
             contains:
@@ -87,7 +119,7 @@ filebeat.inputs:
       - dissect:
           when:
             contains:
-              message: "jfrt_slow_queries"
+              message: "slow_queries"
           tokenizer: "%{metric_name}{query=\"%{query}\"} %{metric_value} %{timestamp}"
           target_prefix: ""
       - dissect:
@@ -97,14 +129,35 @@ filebeat.inputs:
       service_id: "${ARTIFACTORY_SERVICE_ID}"
       node_id: "${NODE_ID}"
     fields_under_root: true
-
+    
+  - type: log
+    enabled: ${METRICS_LOG_ENABLED:false}
+    paths:
+      - ${ARTIFACTORY_HOME}/var/log/artifactory-request-out.log
+    processors:
+      - dissect:
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{remote_repo_name}|%{req_user}|%{req_type}|%{remote_url}|%{res_status}|%{req_content_length}|%{res_content_length}|%{duration}"
+          target_prefix: ""
+      - add_fields:
+          target: ''
+          fields:
+            req_user: "anonymous"      
+          when:
+            equals:
+              req_user: ""          
+    fields:
+      service_id: "${ARTIFACTORY_SERVICE_ID}"
+      node_id: "${NODE_ID}"
+      record_type: "jfrt_remote_repo"
+    fields_under_root: true
+    
   - type: log
     enabled: ${METRICS_LOG_ENABLED:false}
     paths:
       - ${ARTIFACTORY_HOME}/var/log/artifactory-request.log
     processors:
       - dissect:
-          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{req_content_length}|%{res_content_length}|%{res_duration}|%{req_user_agent}"
           target_prefix: ""
       - if:
           or:
@@ -132,7 +185,7 @@ filebeat.inputs:
       - ${ARTIFACTORY_HOME}/var/log/metadata-request.log
     processors:
       - dissect:
-          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{req_content_length}|%{res_content_length}|%{res_duration}|%{req_user_agent}"
           target_prefix: ""
       - if:
           or:
@@ -160,7 +213,7 @@ filebeat.inputs:
       - ${ARTIFACTORY_HOME}/var/log/event-request.log
     processors:
       - dissect:
-          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{req_content_length}|%{res_content_length}|%{res_duration}|%{req_user_agent}"
           target_prefix: ""
       - if:
           or:
@@ -188,7 +241,7 @@ filebeat.inputs:
       - ${ARTIFACTORY_HOME}/var/log/access-request.log
     processors:
       - dissect:
-          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{req_content_length}|%{res_content_length}|%{res_duration}|%{req_user_agent}"
           target_prefix: ""
       - if:
           or:
@@ -216,7 +269,7 @@ filebeat.inputs:
       - ${ARTIFACTORY_HOME}/var/log/frontend-request.log
     processors:
       - dissect:
-          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{res_content_length}|%{req_content_length}|%{res_duration}|%{req_user_agent}"
+          tokenizer: "%{timestamp}|%{req_trace_id}|%{req_remote_address}|%{req_user}|%{req_type}|%{req_url}|%{res_status}|%{req_content_length}|%{res_content_length}|%{res_duration}|%{req_user_agent}"
           target_prefix: ""
       - if:
           or:
@@ -273,22 +326,33 @@ output.elasticsearch:
   hosts: ["${ELASTICSEARCH_URL}"]
   username: "${ELASTICSEARCH_USERNAME}"
   password: "${ELASTICSEARCH_PASSWORD}"
+  pipeline: insight_ingest_pipeline
   indices:
-    - index: "active_metrics_data"
+    - index: "active_jfrt_gc_metrics_data"
+      when.or:
+        - equals:
+            record_type: "jfrt_artifacts_gc"
+    - index: "active_jfrt_metrics_data"
       when.or:
         - equals:
             record_type: "jfrt_db_connections"
+        - equals:
+            record_type: "jfac_db_connections"
+        - equals:
+            record_type: "jfmd_db_connections"
         - equals:
             record_type: "jfrt_http_connections"
         - equals:
             record_type: "jfrt_runtime_heap"
         - equals:
-            record_type: "jfrt_artifacts_gc"
+            record_type: "jfmd_runtime_heap"
+        - equals:
+            record_type: "jfac_runtime_heap"
         - equals:
             record_type: "system_metrics"
         - equals:
             record_type: "slow_queries"
-    - index: "active_request_data"
+    - index: "active_jfrt_request_data"
       when.or:
         - equals:
             record_type: "jfmd"
@@ -300,7 +364,11 @@ output.elasticsearch:
             record_type: "jfevt"
         - equals:
             record_type: "jffe"
-
+    - index: "active_jfrt_outbound_data"
+      when.or:
+        - equals:
+            record_type: "jfrt_remote_repo"
+            
 logging.level: ${FILEBEAT_LOG_LEVEL:info}
 logging.to_files: ${FILEBEAT_LOG_TOFILES:false}
 logging.files:
